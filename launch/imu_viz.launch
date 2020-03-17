@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="bno055_ros_bridge" type="imu_viz.py" respawn="false" name="imu_viz_node"  output="screen" />
+
+	<node
+    	name="rviz"
+    	pkg="rviz"
+    	type="rviz"
+    	args="-d $(find bno055_ros_bridge)/imu_viz.rviz" />
+
+
+</launch>
