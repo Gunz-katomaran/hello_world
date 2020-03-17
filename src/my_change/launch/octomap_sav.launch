@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="octomap_server" type="octomap_saver" name="sav_oct" args="-f hh.bt" output="screen">
+    <remap from="octomap_full" to="projected_map"/>
+  </node>
+</launch>

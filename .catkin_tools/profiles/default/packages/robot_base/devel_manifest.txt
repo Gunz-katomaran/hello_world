@@ -1,0 +1,12 @@
+robot_base
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/share/robot_base/docs/RobotBaseConfig-usage.dox /home/katomaran-ros/catkin_ws8/devel/share/robot_base/docs/RobotBaseConfig-usage.dox
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/share/robot_base/docs/RobotBaseConfig.dox /home/katomaran-ros/catkin_ws8/devel/share/robot_base/docs/RobotBaseConfig.dox
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/share/robot_base/docs/RobotBaseConfig.wikidoc /home/katomaran-ros/catkin_ws8/devel/share/robot_base/docs/RobotBaseConfig.wikidoc
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/share/robot_base/cmake/robot_baseConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/robot_base/cmake/robot_baseConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/share/robot_base/cmake/robot_baseConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/robot_base/cmake/robot_baseConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/lib/pkgconfig/robot_base.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/robot_base.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/lib/python2.7/dist-packages/robot_base/__init__.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/robot_base/__init__.py
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/lib/python2.7/dist-packages/robot_base/cfg/RobotBaseConfig.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/robot_base/cfg/RobotBaseConfig.py
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/lib/python2.7/dist-packages/robot_base/cfg/__init__.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/robot_base/cfg/__init__.py
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base/include/robot_base/RobotBaseConfig.h /home/katomaran-ros/catkin_ws8/devel/include/robot_base/RobotBaseConfig.h

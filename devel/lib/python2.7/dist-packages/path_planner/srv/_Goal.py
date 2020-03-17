@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/path_planner/lib/python2.7/dist-packages/path_planner/srv/_Goal.py

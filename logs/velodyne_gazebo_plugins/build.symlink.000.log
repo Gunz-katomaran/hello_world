@@ -1,0 +1,5 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libgazebo_ros_velodyne_gpu_laser.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libgazebo_ros_velodyne_laser.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/velodyne_gazebo_plugins.pc

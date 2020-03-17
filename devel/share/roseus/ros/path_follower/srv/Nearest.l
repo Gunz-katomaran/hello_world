@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/path_follower/share/roseus/ros/path_follower/srv/Nearest.l

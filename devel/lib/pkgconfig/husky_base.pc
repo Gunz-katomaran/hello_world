@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/lib/pkgconfig/husky_base.pc

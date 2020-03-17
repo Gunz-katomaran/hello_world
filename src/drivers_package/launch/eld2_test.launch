@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Launches teleop control node. teleop using Joystick-->
+<launch>
+
+  <rosparam command="load" file="$(find drivers_package)/config/waiter_odom.yaml"/>
+  <rosparam command="load" file="$(find drivers_package)/config/waiter_control.yaml" ns="main"/>
+  <node pkg="drivers_package" type="main_motor.py" name="controller_node" output="screen" />
+  <node pkg="drivers_package" type="waiter_odom.py" name="odometry_node" output="screen" />
+  <node pkg="rosserial_python" type="serial_node.py" respawn="false" name="IMU_Node"  output="screen" args="_port:=/dev/IMU _baud:=115200"/>
+  <node pkg="bno055_ros_bridge" type="bno055_ros_bridge" name="bno055_ros_bridge" output="screen" />
+ 
+
+</launch>

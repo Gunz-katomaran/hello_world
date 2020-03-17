@@ -1,0 +1,5 @@
+new_robot_description
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/new_robot_description/cmake/new_robot_descriptionConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/lib/pkgconfig/new_robot_description.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/new_robot_description.pc

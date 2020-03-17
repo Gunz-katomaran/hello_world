@@ -1,0 +1,5 @@
+realsense-ros/realsense2_description
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_description/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_description/lib/pkgconfig/realsense2_description.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/realsense2_description.pc

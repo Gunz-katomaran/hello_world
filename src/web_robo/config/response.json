@@ -1,0 +1,385 @@
+After Launching Pose Publisher
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Pose Publisher"
+    }
+}
+
+After launching Plan Scheduler
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Scheduler"
+    }
+}
+
+After launching latitude_longitude to xy calculator:
+{
+    "status": "true", 
+    "data": {
+        "finished": "Launched", 
+        "value": "XYCalculator"
+    }
+}
+
+
+Number of schedules retrieved initially
+{
+    "status": "true",
+    "Scheduler": {
+        "Retrieved": "1"
+    }
+}
+
+
+
+After lauching gmapping
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Gmapping"
+    }
+}
+
+
+After saving map
+{
+    "status": "true",
+    "saved": {
+        "saved": "Map", 
+        "value": "test_resp/map_1"
+    }
+}
+
+No such map
+{
+    "status": "false",
+    "error": {
+        "cause": "map", 
+        "error": "NameError"
+    }
+}
+
+No such site
+{
+    "status": "false",
+    "error": {
+        "cause": "site", 
+        "error": "NameError"
+    }
+}
+
+No such path
+{
+    "status": "false",
+    "error": {
+        "cause": "Path", 
+        "error": "NameError"
+    }
+}
+
+
+If map has not been saved
+{
+    "status": "false",
+    "error": {
+        "cause": "Map", 
+        "error": "SaveError"
+    }
+}
+
+After shutting down gmapping
+{
+    "status": "true",
+    "data": {
+        "finished": "Shutdown", 
+        "value": "Gmapping"
+    }
+}
+
+
+On launching manual navigation
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched ", 
+        "value": "manual Navigation"
+    }
+}
+
+On launching joystick
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Joystick"
+    }
+}
+
+On starting path recorder
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Path_Recorder"
+    }
+}
+
+After saving a milestone
+{
+    "status": "true",
+    "saved": {
+        "saved": "Milestone", 
+        "value": "joy_milestone1"
+    }
+}
+
+On saving a path
+{
+    "status": "true",
+    "saved": {
+        "saved": "Path", 
+        "value": "resp_path"
+    }
+}
+
+After completion of path recording
+{
+    "status": "true",
+    "data": {
+        "finished": "Shutdown", 
+        "value": "Path_Recorder"
+    }
+}
+
+After shutdown no goal navigation
+{
+    "status": "true",
+    "data": {
+        "finished": "Shutdown", 
+        "value": "No goal Navigation"
+    }
+}
+
+
+After launching map server, name = site_name/map_name
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "name": "test_resp/map_1", 
+        "value": "Map_Server"
+    }
+}
+
+After launching patrol navigation
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched ", 
+        "value": "patrol Navigation"
+    }
+}
+
+After launching path finder
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Path_Finder"
+    }
+}
+
+After the request to edit milestones has been processed
+{
+    "status": "true",
+    "data": {
+        "finished": "Updated", 
+        "value": "Milestones"
+    }
+}
+
+After a plan has been saved in the F
+{
+    "status": "true",
+    "saved": {
+        "saved": "plan", 
+        "value": "resp_plan"
+    }
+}
+
+When a scheduled plan has been started, started
+{
+    "status": "true",
+    "Scheduler": {
+        "started": "resp_plan"
+    }
+}
+
+After loading a path, name = path name
+{
+    "status": "true",
+    "data": {
+        "finished": "Loaded", 
+        "name": "resp_path", 
+        "value": "Path"
+    }
+}
+After sending a goal
+{
+    "status": "true",
+    "data": {
+        "finished": "Sent", 
+        "name": "path_ms_1", 
+        "value": "Goal"
+    }
+}
+
+
+
+
+On reaching a goal
+{
+    "status": "true",
+    "data": {
+        "finished": "Reached", 
+        "value": "path_ms_1"
+    }
+}
+
+After launching camera
+{
+    "status": "true",
+    "data": {
+        "finished": "Launched", 
+        "value": "Camera"
+    }
+}
+
+
+After capturing image
+{
+    "status": "true",
+    "data": {
+        "finished": "Captured", 
+        "value": "Image"
+    }
+}
+
+No such milestone error
+{
+    "status": "false",
+    "error": {
+        "cause": "Goal", 
+        "error": "NameError"
+    }
+}
+
+
+
+After saving schedule for a time
+{
+    "status": "true",
+    "Scheduler": {
+        "Scheduled": "resp_plan", 
+        "remaining": "3", 
+        "schedule": "24/02/2020_12:17:00"
+    }
+}
+
+
+After pausing a plan
+{
+    "status": "true",
+    "data": 
+    {   "safety": "Paused", 
+        "plan_name": "resp_plan"
+    }
+}
+
+After Resuming a plan
+{
+    "status": "true",
+    "data": 
+    {   "safety": "Resumed", 
+        "plan_name": "resp_plan"
+    }
+}
+
+After stopping a plan
+{
+    "status": "true",
+    "data": 
+    {   "safety": "Stopped", 
+        "plan_name": "resp_plan"
+    }
+}
+
+After saving repeat schedule
+{
+    "status": "true",
+    "Scheduler": {
+        "Scheduled": "resp_plan", 
+        "remaining": "3", 
+        "schedule": {
+            "every": "day", 
+            "at": "12:22:00"
+        }
+    }
+}
+
+After deleting a schedule
+{
+    "status": "true",
+    "Scheduler": {
+        "Removed": "resp_plan", 
+        "remaining": "2", 
+        "schedule": {
+            "every": "day", 
+            "at": "12:22:00"
+        }
+    }
+}
+
+
+If the given date and time schedule is not in dd/mm/yyy_HH:MM:SS format
+{
+    "status": "false",
+    "Scheduler": {
+        "cause": "Datetime", 
+        "error": "FormatError"
+    }
+}
+
+If a schedule date time is given for a past time
+{
+    "status": "false",
+    "Scheduler": {
+        "cause": "PastTime", 
+        "error": "TimeError"
+    }
+}
+
+If repeat schedule time is not in HH:MM:SS format 
+{
+    "status": "false",
+    "Scheduler": {
+        "cause": "Time", 
+        "error": "FormatError"
+    }
+}
+
+If saving schedule fails
+{
+    "status": "false",
+    "error": {
+        "cause": "Schedule", 
+        "error": "SaveError"
+    }
+}
+
+

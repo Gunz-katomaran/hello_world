@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/roadmap_global_planner_msgs/share/roadmap_global_planner_msgs/cmake/roadmap_global_planner_msgsConfig.cmake

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find path_planner)/config/param.yaml" command="load"  />
+	<node pkg="path_planner" type="name_goal.py" respawn="false" name="name_goal_node"  output="screen" />
+</launch>

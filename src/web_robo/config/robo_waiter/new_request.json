@@ -1,0 +1,159 @@
+To start/ reset gmapping:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "start"
+    }
+}
+
+To save gmapping map:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "save",
+        "map_name": "restaurant"
+    }
+}
+
+To exit gmapping:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "exit"
+    }
+}
+
+
+To start navigation node in path recording:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "request",
+    "command":
+    {
+        "command":"navigation",
+        "process":"start",
+        "map_name":"restaurant"
+    }
+}
+
+To save waypoint:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"waypoint",
+        "data":["1.0,2.0,0.0,1.0","1.5,2.0,0.0,1.0"]
+    }
+}
+
+
+To save milestone:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"milestone",
+        "data":["1.0,2.0,0.0,1.0,1","1.5,2.0,0.0,1.0,2"]
+    }
+}
+
+To save table_points:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"table",
+        "data":["1.0,2.0,0.0,1.0,1","1.5,2.0,0.0,1.0,2"]
+    }
+}
+
+To save home_points of robots:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"home_point",
+        "data":"Robot1"
+    }
+}
+
+To save pickup_point:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"pickup_point",
+        "data":1
+    }
+}
+
+To save parking_points:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "save",
+    "command":
+    {
+        "command":"parking_point",
+        "data":"[[-9.807661056518555, -2.7785158157348633], [-9.785391807556152, 2.823568344116211], [-6.949185371398926, 2.8775758743286133], [-6.914725303649902, -2.739511489868164]]"
+    }
+}
+
+To start apirltag_node:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "request",
+    "command":
+    {
+        "command":"april_tag",
+        "process":"start"
+    }
+}
+
+To end apirltag_node:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "request",
+    "command":
+    {
+        "command":"april_tag",
+        "process":"end"
+    }
+}
+
+To end navigation node in path recording:
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "request",
+    "command":
+    {
+        "command":"navigation",
+        "process":"exit"
+    }
+}
+
+To exit the overall node:
+{
+    "authorization": "auth_token",
+    "mode": "node_exit"
+}

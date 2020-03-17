@@ -1,0 +1,18 @@
+[Unit]
+Description=Service for Dotworld Robot
+After=network.target
+StartLimitIntervalSec=10
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=root
+WorkingDirectory=/home/dotworld/service-robot/v1
+ExecStart=/usr/bin python3 /home/dotworld/service-robot/v1/main.py >> /home/dotworld/service-robot/v1/logs/service.log 2>&1
+ExecReload=pkill python3
+
+[Install]
+WantedBy=multi-user.target
+Alias=robot.service
+

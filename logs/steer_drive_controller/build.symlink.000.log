@@ -1,0 +1,5 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/steer_drive_controller/cmake/steer_drive_controllerConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/steer_drive_controller/cmake/steer_drive_controllerConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libsteer_drive_controller.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/steer_drive_controller.pc
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/steer_drive_controller/steer_drive_controller_steerbot

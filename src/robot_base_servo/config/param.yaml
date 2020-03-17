@@ -1,0 +1,9 @@
+acceleration: 1000 #Acceleration(rpm/s^2)
+deceleration: 1000 #Deceleration(rpm/s^2)
+wheel_radius_FL: 0.1273 #Wheel_radius(m)
+wheel_radius_FR: 0.1273 #Wheel_radius(m)
+wheel_radius_BL: 0.1273 #Wheel_radius(m)
+wheel_radius_BR: 0.1273 #Wheel_radius(m)
+gear_ratio: 20 #gear_ratio
+max_speed_p: 1800 #maximum_positive_speed(rpm/s^2)
+max_speed_n: -1800 #maximum_negative_speed(rpm/s^2)

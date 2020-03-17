@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/catkin_tools_prebuild/setup.zsh

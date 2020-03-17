@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Launches all motor driver nodes-->
+<launch>
+ 
+ <rosparam file="$(find robot_base)/config/param.yaml" command="load"  />
+
+ 
+
+  <node pkg="robot_base" type="motor_driver1.py" respawn="false" name="motor1"  output="screen" />
+
+
+  <node pkg="robot_base" type="motor_driver2.py" respawn="false" name="motor2" output="screen" />
+
+
+  <node pkg="robot_base" type="motor_driver3.py" respawn="false" name="motor3" output="screen" />
+
+
+  <node pkg="robot_base" type="motor_driver4.py" respawn="false" name="motor4" output="screen" />
+
+<!--node pkg="joystick" type="path.py" respawn="false" name="joystick_to_cmd" output="screen" />
+
+   <node pkg="joy" type="joy_node" respawn="false" name="joystick" output="screen" /-->
+
+</launch>

@@ -1,0 +1,5 @@
+drivers_package
+/home/katomaran-ros/catkin_ws8/devel/.private/drivers_package/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/drivers_package/share/drivers_package/cmake/drivers_packageConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/drivers_package/cmake/drivers_packageConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/drivers_package/share/drivers_package/cmake/drivers_packageConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/drivers_package/cmake/drivers_packageConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/drivers_package/lib/pkgconfig/drivers_package.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/drivers_package.pc

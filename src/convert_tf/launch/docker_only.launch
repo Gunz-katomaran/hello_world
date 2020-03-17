@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="tag" default="tag_0" />
+
+  <rosparam command="load" file="$(find convert_tf)/config/tag_info.yaml"/>
+
+  <node name="publish_tag" pkg="convert_tf" type="publish.py" output="screen"/>
+  <node name="docker" pkg="convert_tf" type="new_docker.py" args="$(arg tag)" output="screen"/>
+
+
+ </launch>

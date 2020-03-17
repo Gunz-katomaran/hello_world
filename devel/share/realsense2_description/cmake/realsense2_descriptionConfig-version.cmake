@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake

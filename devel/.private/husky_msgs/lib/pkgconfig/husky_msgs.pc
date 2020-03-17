@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/husky_msgs
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.4.2
+Cflags: -I/home/katomaran-ros/catkin_ws8/devel/.private/husky_msgs/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

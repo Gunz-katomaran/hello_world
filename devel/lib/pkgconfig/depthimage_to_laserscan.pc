@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc

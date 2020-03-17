@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/install
+
+Name: drivers_package
+Description: Description of drivers_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

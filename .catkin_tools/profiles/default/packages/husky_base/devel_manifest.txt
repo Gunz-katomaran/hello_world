@@ -1,0 +1,7 @@
+husky/husky_base
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/share/husky_base/cmake/husky_baseConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_base/cmake/husky_baseConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/share/husky_base/cmake/husky_baseConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_base/cmake/husky_baseConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/lib/libhorizon_legacy.so /home/katomaran-ros/catkin_ws8/devel/lib/libhorizon_legacy.so
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/lib/pkgconfig/husky_base.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/husky_base.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_base/lib/husky_base/husky_node /home/katomaran-ros/catkin_ws8/devel/lib/husky_base/husky_node

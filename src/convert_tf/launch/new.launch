@@ -1,0 +1,9 @@
+<launch>
+
+  <rosparam command="load" file="$(find convert_tf)/config/camera_info.yaml"/>
+  <rosparam command="load" file="$(find convert_tf)/config/robo_pose_info.yaml"/>
+  <rosparam command="load" file="$(find convert_tf)/config/new_param.yaml"/>
+
+  <node name="global_robo" pkg="convert_tf" type="global_robot_pose.py" output="screen"/>
+
+ </launch>

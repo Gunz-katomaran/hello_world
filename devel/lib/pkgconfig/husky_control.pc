@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_control/lib/pkgconfig/husky_control.pc

@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/patrol_planner
+
+Name: patrol_planner
+Description: Description of patrol_planner
+Version: 0.0.0
+Cflags: -I/home/katomaran-ros/catkin_ws8/devel/.private/patrol_planner/include -I/home/katomaran-ros/catkin_ws8/src/patrol_planner/include
+Libs: -L${prefix}/lib -lpatrol_planner
+Requires: geometry_msgs pluginlib nav_core navfn nav_msgs roscpp std_msgs message_runtime

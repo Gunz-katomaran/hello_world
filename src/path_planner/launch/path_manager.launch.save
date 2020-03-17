@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+                <rosparam file="$(find path_planner)/config/real_time_param.yaml" command="load"  />
+
+	<node pkg="robot_pose_publisher" type="robot_pose_publisher" respawn="false" name="robot_pose_publisher"  output="screen" />
+	<node pkg="path_planner" type="path_manager.py" respawn="false" name="path_manager_node"  output="screen" />
+
+</launch>

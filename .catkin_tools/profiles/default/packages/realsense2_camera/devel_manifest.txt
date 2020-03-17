@@ -1,0 +1,27 @@
+realsense-ros/realsense2_camera
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-extras.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_camera/cmake/realsense2_camera-msg-extras.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-paths.cmake /home/katomaran-ros/catkin_ws8/devel/share/realsense2_camera/cmake/realsense2_camera-msg-paths.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/manifest.l /home/katomaran-ros/catkin_ws8/devel/share/roseus/ros/realsense2_camera/manifest.l
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/msg/Extrinsics.l /home/katomaran-ros/catkin_ws8/devel/share/roseus/ros/realsense2_camera/msg/Extrinsics.l
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/msg/IMUInfo.l /home/katomaran-ros/catkin_ws8/devel/share/roseus/ros/realsense2_camera/msg/IMUInfo.l
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/_index.js /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/realsense2_camera/_index.js
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/_index.js /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/realsense2_camera/msg/_index.js
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package.lisp /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/_package.lisp
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_Extrinsics.lisp /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/_package_Extrinsics.lisp
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_IMUInfo.lisp /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/_package_IMUInfo.lisp
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/realsense2_camera-msg.asd /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/realsense2_camera-msg.asd
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/librealsense2_camera.so /home/katomaran-ros/catkin_ws8/devel/lib/librealsense2_camera.so
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/pkgconfig/realsense2_camera.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/realsense2_camera.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/python2.7/dist-packages/realsense2_camera/__init__.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/realsense2_camera/__init__.py
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/include/realsense2_camera/IMUInfo.h /home/katomaran-ros/catkin_ws8/devel/include/realsense2_camera/IMUInfo.h
+/home/katomaran-ros/catkin_ws8/devel/.private/realsense2_camera/include/realsense2_camera/Extrinsics.h /home/katomaran-ros/catkin_ws8/devel/include/realsense2_camera/Extrinsics.h

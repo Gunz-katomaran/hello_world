@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/docker
+
+Name: docker
+Description: Description of docker
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib geometry_msgs roscpp rospy std_msgs tf move_base move_base_msgs

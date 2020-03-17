@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_msgs/include/husky_msgs/HuskyStatus.h

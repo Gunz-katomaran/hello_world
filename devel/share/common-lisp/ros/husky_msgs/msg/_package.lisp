@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_msgs/share/common-lisp/ros/husky_msgs/msg/_package.lisp

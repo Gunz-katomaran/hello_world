@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target stepback_and_steerturn_recovery[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stepback_and_steerturn_recovery.dir/src/stepback_and_steerturn_recovery.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/katomaran-ros/catkin_ws8/devel/.private/stepback_and_steerturn_recovery/lib/libstepback_and_steerturn_recovery.so[0m
+[100%] Built target stepback_and_steerturn_recovery

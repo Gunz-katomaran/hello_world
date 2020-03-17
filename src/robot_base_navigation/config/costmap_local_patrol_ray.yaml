@@ -1,0 +1,67 @@
+global_frame: map
+rolling_window: true
+width: 12.0
+height: 8.0
+publish_frequency: 3
+update_frequency: 5.0
+
+
+plugins:
+  - {name: obstacles,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,           type: "costmap_2d::InflationLayer"}
+  - {name: sonar_layer1,   type: "range_sensor_layer::RangeSensorLayer"}
+  - {name: sonar_layer2,   type: "range_sensor_layer::RangeSensorLayer"}
+  - {name: sonar_layer3,   type: "range_sensor_layer::RangeSensorLayer"}
+  - {name: sonar_layer4,   type: "range_sensor_layer::RangeSensorLayer"}
+  - {name: sonar_layer5,   type: "range_sensor_layer::RangeSensorLayer"}
+
+
+#layer definitions
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+
+obstacles:
+    observation_sources: 3dlaser
+    3dlaser: {data_type: PointCloud2, clearing: true, marking: true, topic: /velodyne_points, max_obstacle_height: 0.8, min_obstacle_height: 0.04}
+
+inflation:
+    inflation_radius: 0.2
+    cost_scaling_factor: 0.5
+
+
+sonar_layer1:
+  topics: ["/patrol/ir_front1"]
+  no_readings_timeout: 1.0
+  clear_threshold: 0.5
+  mark_threshold: 0.5
+  clear_on_max_reading: true
+
+sonar_layer2:
+  topics: ["/patrol/ir_front2"]
+  no_readings_timeout: 1.0
+  clear_threshold: 0.5
+  mark_threshold: 0.5
+  clear_on_max_reading: true
+
+sonar_layer3:
+  topics: ["/patrol/ir_front3"]
+  no_readings_timeout: 1.0
+  clear_threshold: 0.5
+  mark_threshold: 0.5
+  clear_on_max_reading: true
+
+sonar_layer4:
+  topics: ["/patrol/ir_front4"]
+  no_readings_timeout: 1.0
+  clear_threshold: 0.5
+  mark_threshold: 0.5
+  clear_on_max_reading: true
+
+sonar_layer5:
+  topics: ["/patrol/ir_front5"]
+  no_readings_timeout: 1.0
+  clear_threshold: 0.5
+  mark_threshold: 0.5
+  clear_on_max_reading: true
+

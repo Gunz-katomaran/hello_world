@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_control/lib/pkgconfig/robot_base_control.pc

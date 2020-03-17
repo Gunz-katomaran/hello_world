@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints
+
+Name: joy_waypoints
+Description: Description of joy_waypoints
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

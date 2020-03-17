@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="robot_pose_publisher" type="robot_pose_publisher" respawn="false" name="robot_pose_publisher"  output="screen" />
+	<node pkg="path_planner" type="point_recorder.py" respawn="false" name="path_manager_node"  output="screen" args="new"/>
+
+</launch>

@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/roadmap_global_planner_msgs/lib/python2.7/dist-packages/roadmap_global_planner_msgs/msg/_PointList.py

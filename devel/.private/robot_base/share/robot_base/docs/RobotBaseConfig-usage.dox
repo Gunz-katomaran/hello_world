@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="robot_base" pkg="robot_base" type="robot_base">
+  <param name="publish_tf" type="bool" value="True" />
+</node>
+\endverbatim
+

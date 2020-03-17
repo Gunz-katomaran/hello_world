@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/katomaran-ros/catkin_ws8/devel/.private/patrol_v3/setup.sh

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libcolumn.so -o /home/katomaran-ros/catkin_ws8/devel/.private/column/lib/libcolumn.so CMakeFiles/column.dir/src/BodyPoseFilter.cpp.o CMakeFiles/column.dir/src/world_modeling.cpp.o 

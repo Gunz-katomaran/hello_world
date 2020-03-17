@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Launches hedge_rcv and pose_marvel.py-->
+<launch>
+
+
+  <node pkg="marvelmind_nav" type="hedge_rcv_bin" respawn="false" name="hedge_rcv_bin"  output="screen"  />
+  <node pkg="marvelmind_nav" type="subscriber_test" respawn="false" name="subscriber_test"  output="screen" />
+  <node pkg="marvelmind_nav" type="pose_marvel.py" respawn="false" name="pose_from_marvel" />
+ 
+
+</launch>

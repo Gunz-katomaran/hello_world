@@ -1,0 +1,7 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/liblaserscan_to_pointcloud.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libpointcloud_to_laserscan.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/pointcloud_to_laserscan.pc

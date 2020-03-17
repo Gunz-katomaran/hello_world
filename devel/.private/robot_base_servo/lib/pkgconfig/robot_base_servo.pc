@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_servo
+
+Name: robot_base_servo
+Description: Description of robot_base_servo
+Version: 0.0.0
+Cflags: -I/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_servo/include
+Libs: -L${prefix}/lib 
+Requires: 

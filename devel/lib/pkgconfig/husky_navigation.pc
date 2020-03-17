@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc

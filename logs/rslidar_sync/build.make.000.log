@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target rslidar_sync_3lidar_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rslidar_sync_3lidar_node.dir/src/timesync_3lidar.cpp.o[0m
+[35m[1mScanning dependencies of target rslidar_sync_2lidar_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rslidar_sync_2lidar_node.dir/src/timesync_2lidar.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/lib/rslidar_sync/rslidar_sync_3lidar_node[0m
+[ 75%] Built target rslidar_sync_3lidar_node
+[100%] [32m[1mLinking CXX executable /home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/lib/rslidar_sync/rslidar_sync_2lidar_node[0m
+[100%] Built target rslidar_sync_2lidar_node

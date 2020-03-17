@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/install
+
+Name: husky_control
+Description: Description of husky_control
+Version: 0.4.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

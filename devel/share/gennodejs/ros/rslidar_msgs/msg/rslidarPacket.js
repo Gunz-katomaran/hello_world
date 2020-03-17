@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_msgs/share/gennodejs/ros/rslidar_msgs/msg/rslidarPacket.js

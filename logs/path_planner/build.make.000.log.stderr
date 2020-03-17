@@ -1,0 +1,7 @@
+In file included from [01m[K/home/katomaran-ros/catkin_ws8/src/path_planner/src/path_planner.cpp:2:0[m[K:
+[01m[K/home/katomaran-ros/catkin_ws8/src/path_planner/include/path_planner.h:19:33:[m[K [01;31m[Kfatal error: [m[Kpath_planner/Graph.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/path_planner_lib.dir/src/path_planner.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/path_planner_lib.dir/all] Error 2
+make: *** [all] Error 2

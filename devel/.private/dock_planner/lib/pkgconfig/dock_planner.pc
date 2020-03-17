@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/dock_planner
+
+Name: dock_planner
+Description: Description of dock_planner
+Version: 0.0.0
+Cflags: -I/home/katomaran-ros/catkin_ws8/src/dock_planner/include
+Libs: -L${prefix}/lib 
+Requires: angles costmap_2d dynamic_reconfigure geometry_msgs nav_core nav_msgs navfn pluginlib roscpp std_msgs tf

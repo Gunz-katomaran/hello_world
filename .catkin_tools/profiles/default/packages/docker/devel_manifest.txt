@@ -1,0 +1,5 @@
+docker
+/home/katomaran-ros/catkin_ws8/devel/.private/docker/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/docker/share/docker/cmake/dockerConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/docker/cmake/dockerConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/docker/share/docker/cmake/dockerConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/docker/cmake/dockerConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/docker/lib/pkgconfig/docker.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/docker.pc

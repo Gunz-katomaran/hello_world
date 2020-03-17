@@ -1,0 +1,55 @@
+#common
+ACC: 100 #Acceleration(rpm/s^2)
+
+FR:
+  PP_GAIN: 256  #Poisition P Gain  
+  PFF_GAIN: 50  #FeedForward Gain
+  PD_GAIN: 32 #Position D Gain
+  PV_GAIN: 600 #Velocity P Gain
+  IV_GAIN: 80 #Velocity I Gain
+  DV_GAIN: 300 #Velocity D Gain
+  C_LIMIT: 8000 #Current Limit (mA)
+  CP_GAIN: 188 #Current P Gain
+  CI_GAIN: 94 #Current I Gain
+  C_TRIGGER: 800 #Current Trigger Level
+  FLT_TIME_CNST: 31200 #Input Filter Time
+
+FL:
+  PP_GAIN: 256  #Poisition P Gain  
+  PFF_GAIN: 50  #FeedForward Gain
+  PD_GAIN: 32 #Position D Gain
+  PV_GAIN: 600 #Velocity P Gain
+  IV_GAIN: 80 #Velocity I Gain
+  DV_GAIN: 300 #Velocity D Gain
+  C_LIMIT: 8000 #Current Limit (mA)
+  CP_GAIN: 188 #Current P Gain
+  CI_GAIN: 94 #Current I Gain
+  C_TRIGGER: 800 #Current Trigger Level
+  FLT_TIME_CNST: 31200 #Input Filter Time
+
+BL:
+  PP_GAIN: 256  #Poisition P Gain  
+  PFF_GAIN: 50  #FeedForward Gain
+  PD_GAIN: 32 #Position D Gain
+  PV_GAIN: 600 #Velocity P Gain
+  IV_GAIN: 80 #Velocity I Gain
+  DV_GAIN: 300 #Velocity D Gain
+  C_LIMIT: 8000 #Current Limit (mA)
+  CP_GAIN: 188 #Current P Gain
+  CI_GAIN: 94 #Current I Gain
+  C_TRIGGER: 800 #Current Trigger Level
+  FLT_TIME_CNST: 31200 #Input Filter Time
+
+BR:
+  PP_GAIN: 256  #Poisition P Gain  
+  PFF_GAIN: 50  #FeedForward Gain
+  PD_GAIN: 32 #Position D Gain
+  PV_GAIN: 600 #Velocity P Gain
+  IV_GAIN: 80 #Velocity I Gain
+  DV_GAIN: 300 #Velocity D Gain
+  C_LIMIT: 8000 #Current Limit (mA)
+  CP_GAIN: 188 #Current P Gain
+  CI_GAIN: 94 #Current I Gain
+  C_TRIGGER: 800 #Current Trigger Level
+  FLT_TIME_CNST: 31200 #Input Filter Time
+ 

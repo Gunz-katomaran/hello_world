@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<launch>
+  <node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" />
+
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find robot_base_navigation)/robo_waiter.rviz" />
+
+     <include file="$(find robot_base_description)/launch/gazebo_multiple.launch" />
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find robot_base_navigation)/maps/rest.yaml"/>
+
+      <!--- Run AMCL -->
+      <!--include file="$(find robot_base_navigation)/launch/amcl_rw.launch">
+        <arg name="name" value="one/robot_base"/>
+      </include>
+
+      <include file="$(find robot_base_navigation)/launch/amcl_rw.launch">
+        <arg name="name" value="two/robot_base"/>
+      </include>
+
+      <include file="$(find robot_base_navigation)/launch/amcl_rw.launch">
+        <arg name="name" value="three/robot_base"/>
+      </include-->
+
+      <!--- Run Move Base -->
+      <!--include file="$(find robot_base_navigation)/launch/move_base_rw.launch" >
+        <arg name="name" value="one/robot_base"/>
+      </include>
+
+      <include file="$(find robot_base_navigation)/launch/move_base_rw.launch" >
+        <arg name="name" value="two/robot_base"/>
+      </include>
+
+      <include file="$(find robot_base_navigation)/launch/move_base_rw.launch" >
+        <arg name="name" value="three/robot_base"/>
+      </include-->
+
+</launch>

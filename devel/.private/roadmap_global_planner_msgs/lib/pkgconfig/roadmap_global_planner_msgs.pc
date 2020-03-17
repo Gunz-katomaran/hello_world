@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/roadmap_global_planner_msgs
+
+Name: roadmap_global_planner_msgs
+Description: Description of roadmap_global_planner_msgs
+Version: 0.0.0
+Cflags: -I/home/katomaran-ros/catkin_ws8/devel/.private/roadmap_global_planner_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

@@ -1,0 +1,19 @@
+pwd:
+  global_planner_navigation: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/launch/navigate_sim.launch #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/launch/navigate.launch #
+  planner_navigation: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/launch/navigate_sim_planner.launch #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/launch/navigate_path_planner.launch #
+  follower_navigation: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/launch/navigate_sim_follower.launch #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/launch/navigate_path_follower.launch #
+  no_goal_navigation: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/launch/navigate_sim_jsn.launch #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/launch/navigate_jsn.launch #
+
+  joystick_control: /home/nvidia/ws/src/mr-robobase/joystick_servo/launch/teleop_sim.launch #/home/nvidia/ws/src/mr-robobase/joystick_servo/launch/teleop.launch #
+  path_finder: /home/nvidia/ws/src/path_planner/launch/path_finder.launch #gives action goal
+  path_manager: /home/nvidia/ws/src/path_planner/launch/path_manager.launch 
+  camera: /home/nvidia/ws/src/mr-robobase/video_stream_opencv/launch/camera.launch
+  gmapping: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/launch/gmapping_slam.launch #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/launch/gmapping.launch #
+
+dir:
+  milestone_config: /home/nvidia/ws/src/mr-robobase/path_planner/config
+  maps: /home/nvidia/ws/src/mr-wheelbase/robot_base_navigation/maps/ #/home/nvidia/ws/src/mr-robobase/navigation_2dnav/maps/ #
+  recorded_paths: /home/nvidia/ws/src/mr-robobase/path_follower/config
+
+
+

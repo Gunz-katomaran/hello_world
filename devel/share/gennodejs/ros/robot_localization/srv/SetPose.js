@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_localization/share/gennodejs/ros/robot_localization/srv/SetPose.js

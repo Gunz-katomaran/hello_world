@@ -1,0 +1,189 @@
+point_0:
+  name:  home
+  pose:  [-0.05467737419508566, 0.03305322433899191]
+  orientation:  [-0.003937540736137284, 0.9999913898174481]
+  adj_points:  [0]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_1:
+  name:  rack1left
+  pose:  [-2.856074454857399, 0.033499873035058136]
+  orientation:  [0.9998254843845377, -0.01861703748517708]
+  adj_points:  [1]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_2:
+  name:  rack1
+  pose:  [-3.0356636038001996, 7.695935809048186]
+  orientation:  [0.7226340590018148, 0.691229308723442]
+  adj_points:  [2]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_3:
+  name:  rack1right
+  pose:  [-3.166989807300902, 13.66227292730548]
+  orientation:  [0.9949312544491881, -0.10055065046751403]
+  adj_points:  [3]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_4:
+  name:  rack2right
+  pose:  [-6.267010179865639, 13.53422910512288]
+  orientation:  [0.9992622747811581, -0.038364801963723]
+  adj_points:  [4]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_5:
+  name:  rack2
+  pose:  [-6.1484535882642115, 7.6723506438490485]
+  orientation:  [-0.7096993931152343, 0.7044989415556927]
+  adj_points:  [5]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_6:
+  name:  rack2left
+  pose:  [-6.024656468610433, -0.09686482264940245]
+  orientation:  [0.9999133966899547, -0.013154089758897189]
+  adj_points:  [6]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_7:
+  name:  rack3left
+  pose:  [-9.030105835423392, 0.011368945694950797]
+  orientation:  [0.9999626997213911, -0.008302721041829489]
+  adj_points:  [7]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_8:
+  name:  rack3
+  pose:  [-9.321272469226253, 7.676077999665117]
+  orientation:  [0.7229263457168454, 0.690925058365627]
+  adj_points:  [8]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_9:
+  name:  rack3right
+  pose:  [6.368750379442798, 6.609401439295521]
+  orientation:  [-0.7219881511049363, 0.6919039648571439]
+  adj_points:  [9]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_10:
+  name:  rack4right
+  pose:  [6.171603628135519, -2.9170011476117437]
+  orientation:  [-0.7493544136082011, 0.6621671284623353]
+  adj_points:  [10]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_11:
+  name:  rack4
+  pose:  [0.6098261088380958, -3.161919770886332]
+  orientation:  [0.999754736447976, 0.022146257857102395]
+  adj_points:  [11]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_12:
+  name:  rack5left
+  pose:  [-6.9121651476074, -7.821704326960889]
+  orientation:  [-0.6840073831080202, 0.729474866158859]
+  adj_points:  [12]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_13:
+  name:  rack5
+  pose:  [0.49338555553018537, -7.745531746554751]
+  orientation:  [0.07030248821194067, 0.9975249002628611]
+  adj_points:  [13]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_14:
+  name:  rack5a
+  pose:  [0.2860568512074453, -6.766165606510551]
+  orientation:  [0.7861007398534142, 0.6180983078829393]
+  adj_points:  [14]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_15:
+  name:  rack5b
+  pose:  [0.2058626226103044, -9.006502827870031]
+  orientation:  [-0.8428019242758289, 0.538223469244344]
+  adj_points:  [15]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_16:
+  name:  rack5right
+  pose:  [6.794789246411847, -8.948533144273497]
+  orientation:  [-0.6584333420983418, 0.7526383651899693]
+  adj_points:  [16]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_17:
+  name:  rack6right
+  pose:  [-2.6700687899042563, -2.490036426449688]
+  orientation:  [0.6884754396470951, 0.7252592346511203]
+  adj_points:  [17]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_18:
+  name:  rack6
+  pose:  [-2.137133819126939, 4.11788633433046]
+  orientation:  [0.6685492271741811, 0.7436653502612893]
+  adj_points:  [18]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_19:
+  name:  rack6a
+  pose:  [-0.2465537951714616, 3.958786042677783]
+  orientation:  [0.0392759223410954, 0.9992279057882572]
+  adj_points:  [19]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_20:
+  name:  rack6left
+  pose:  [-4.5713872955648345, 5.797857984480636]
+  orientation:  [0.7084945389554645, 0.7057157340282794]
+  adj_points:  [20]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_21:
+  name:  rack7
+  pose:  [-4.430656428828485, 10.562506968804373]
+  orientation:  [0.6873010586787663, 0.7263720714766494]
+  adj_points:  [21]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_22:
+  name:  rack7a
+  pose:  [-1.8146819725723056, 10.42555369815057]
+  orientation:  [0.014313465949948914, 0.9998975410192315]
+  adj_points:  [22]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_23:
+  name:  rack8
+  pose:  [-4.20647013139086, 13.452780308205618]
+  orientation:  [0.6451170094232732, 0.764082320100406]
+  adj_points:  [23]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_24:
+  name:  rack8a
+  pose:  [-1.3295310554449138, 13.24107136336404]
+  orientation:  [0.0118790036144211, 0.9999294399015004]
+  adj_points:  [24]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_25:
+  name:  rack9
+  pose:  [-4.947643543206791, 9.478613113030898]
+  orientation:  [-0.717031334800334, 0.6970405986871123]
+  adj_points:  [25]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+
+point_26:
+  name:  rack9a
+  pose:  [-7.191431607959334, 9.631056233980601]
+  orientation:  [0.9975675909582992, 0.06970157283528416]
+  adj_points:  [26]#fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:    #fill with points are connected to this point separated by comma ','
+

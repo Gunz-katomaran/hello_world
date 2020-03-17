@@ -1,0 +1,6 @@
+devel_space: /home/katomaran-ros/catkin_ws8/devel
+install: false
+install_space: /home/katomaran-ros/catkin_ws8/install
+profile: default
+source_space: /home/katomaran-ros/catkin_ws8/src
+workspace: /home/katomaran-ros/catkin_ws8

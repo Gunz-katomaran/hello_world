@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/imuConfig.py

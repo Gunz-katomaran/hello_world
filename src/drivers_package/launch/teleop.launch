@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Launches teleop control node. teleop using Joystick-->
+<launch>
+  <node pkg="joy" type="joy_node" respawn="false" name="read_js" >
+     <param name="/dev" value="/dev/input/js0" />
+  </node>
+
+  <node pkg="drivers_package" type="joystick_control.py" respawn="false" name="joystick_control_node"  output="screen" />
+
+<!--include file="$(find drivers_package)/launch/drivers.launch" /-->
+ 
+
+</launch>

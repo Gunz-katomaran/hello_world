@@ -1,0 +1,1224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"shutdown"
+			],
+			[
+				"ap",
+				"april_node\tNoneType ⟠"
+			],
+			[
+				"apr",
+				"april\tNoneType ⟠"
+			],
+			[
+				"april",
+				"april_path\tstr ⟠"
+			],
+			[
+				"tag",
+				"tag_id\tunknown ⟠"
+			],
+			[
+				"p_",
+				"p_y"
+			],
+			[
+				"ta",
+				"tag_y\tunknown ⟠"
+			],
+			[
+				"ros",
+				"rospy\tunknown ⟠"
+			],
+			[
+				"fil",
+				"file_saver\tstr ⟠"
+			],
+			[
+				"is",
+				"isDelivering\tbool ⟠"
+			],
+			[
+				"i",
+				"isDelivering\tbool ⟠"
+			],
+			[
+				"t",
+				"tableNumber\tint ⟠"
+			],
+			[
+				"wa",
+				"wait_for_service"
+			],
+			[
+				"Par",
+				"Park\tunknown ⟠"
+			],
+			[
+				"go",
+				"goPickup_point\tfunction ⟠"
+			],
+			[
+				"file",
+				"file_check(…)\tfunction ⟠"
+			],
+			[
+				"ro",
+				"rospy"
+			],
+			[
+				"we",
+				"web_control_node\tNoneType ⟠"
+			],
+			[
+				"msg",
+				"msg"
+			],
+			[
+				"lau",
+				"launch_web_control()\tfunction ⟠"
+			],
+			[
+				"sta",
+				"staticmethod\tunknown ⟠"
+			],
+			[
+				"List",
+				"ListHome\tunknown ⟠"
+			],
+			[
+				"LI",
+				"ListHome\tunknown ⟠"
+			],
+			[
+				"L",
+				"ListDirectoryResponse\tunknown ⟠"
+			],
+			[
+				"w",
+				"with \tkeyword ⟠"
+			],
+			[
+				"lo",
+				"loginfo"
+			],
+			[
+				"home",
+				"home_point"
+			],
+			[
+				"home_point_",
+				"home_point_node"
+			],
+			[
+				"fi",
+				"file_config\tstr ⟠"
+			],
+			[
+				"W",
+				"WebCommandResponse\tunknown ⟠"
+			],
+			[
+				"pickup",
+				"pickup_point"
+			],
+			[
+				"miles",
+				"milestone"
+			],
+			[
+				"map",
+				"map_server_name\tstr ⟠"
+			],
+			[
+				"map_",
+				"map_dir\tstr ⟠"
+			],
+			[
+				"node",
+				"node_name"
+			],
+			[
+				"ne",
+				"new_planner\tstr ⟠"
+			],
+			[
+				"Pic",
+				"pickup_point"
+			],
+			[
+				"conf",
+				"config_file_path"
+			],
+			[
+				"Tl",
+				"Tl_gl\tunknown ⟠"
+			],
+			[
+				"log",
+				"loginfo"
+			],
+			[
+				"init",
+				"initialpose"
+			],
+			[
+				"pose",
+				"pose_pub\tunknown ⟠"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"Po",
+				"PoseWithCovarianceStamped\tunknown ⟠"
+			],
+			[
+				"R",
+				"Robot_name"
+			],
+			[
+				"get",
+				"getClientId()\tfunction ⟠"
+			],
+			[
+				"home_po",
+				"home_pose()\tfunction ⟠"
+			],
+			[
+				"O",
+				"OBSTACLE"
+			],
+			[
+				"filename",
+				"file_name2"
+			],
+			[
+				"par",
+				"parking_point\tunknown ⟠"
+			],
+			[
+				"ho",
+				"home_point\tunknown ⟠"
+			],
+			[
+				"parking",
+				"parking_point"
+			],
+			[
+				"rob",
+				"robot_data_path"
+			],
+			[
+				"con",
+				"config_file_path\tstr ⟠"
+			],
+			[
+				"ra",
+				"raw_input(…)\tfunction ⟠"
+			],
+			[
+				"T",
+				"tableDirection\tstr ⟠"
+			],
+			[
+				"ma",
+				"max_z\tfloat ⟠"
+			],
+			[
+				"mi",
+				"min_z\tfloat ⟠"
+			],
+			[
+				"obs",
+				"obstacle"
+			],
+			[
+				"inn",
+				"inbound"
+			],
+			[
+				"pub",
+				"publish"
+			],
+			[
+				"de",
+				"delivery"
+			],
+			[
+				"ard",
+				"arduino"
+			],
+			[
+				"tb",
+				"tableDuration\tint ⟠"
+			],
+			[
+				"S",
+				"String\tunknown ⟠"
+			],
+			[
+				"path",
+				"path_load_cb()\tfunction ⟠"
+			],
+			[
+				"di",
+				"direction\tNoneType ⟠"
+			],
+			[
+				"r",
+				"rotation"
+			],
+			[
+				"pu",
+				"publish"
+			],
+			[
+				"du",
+				"duration\tNoneType ⟠"
+			],
+			[
+				"dir",
+				"direction"
+			],
+			[
+				"table",
+				"table_bl\tbool ⟠"
+			],
+			[
+				"re",
+				"req\tunknown ⟠"
+			],
+			[
+				"dr",
+				"direction\tNoneType ⟠"
+			],
+			[
+				"tab",
+				"tableName\tunknown ⟠"
+			],
+			[
+				"tabl",
+				"table_srv\tunknown ⟠"
+			],
+			[
+				"goal",
+				"goal_sent_status"
+			],
+			[
+				"obs_",
+				"obs_string"
+			],
+			[
+				"obsta",
+				"obstacle_det"
+			],
+			[
+				"goa",
+				"goal_status\tstr ⟠"
+			],
+			[
+				"get_st",
+				"get_status"
+			],
+			[
+				"get_sta",
+				"goal_sent_status"
+			],
+			[
+				"d3",
+				"d3\tfloat ⟠"
+			],
+			[
+				"patro",
+				"patrol_v3"
+			],
+			[
+				"Park",
+				"ParkResponse\tunknown ⟠"
+			],
+			[
+				"pa",
+				"parking\tbool ⟠"
+			],
+			[
+				"tba",
+				"table_name"
+			],
+			[
+				"mile",
+				"milestone"
+			],
+			[
+				"G",
+				"GPSGoal\tunknown ⟠"
+			],
+			[
+				"mil",
+				"mile_name\tNoneType ⟠"
+			],
+			[
+				"tl",
+				"tl_xy_list\tlist ⟠"
+			],
+			[
+				"ml",
+				"ml_xy_list\tNoneType ⟠"
+			],
+			[
+				"table_",
+				"table_name\tstr ⟠"
+			],
+			[
+				"da",
+				"data1\tstr ⟠"
+			],
+			[
+				"path_n",
+				"path_name1"
+			],
+			[
+				"PauseR",
+				"PauseResponse\tunknown ⟠"
+			],
+			[
+				"res",
+				"resp\tunknown ⟠"
+			],
+			[
+				"ac",
+				"actual_goal_pose\tlist ⟠"
+			],
+			[
+				"gen",
+				"generate_pose_list\tfunction ⟠"
+			],
+			[
+				"orien",
+				"orientation"
+			],
+			[
+				"pre",
+				"pre_y\tunknown ⟠"
+			],
+			[
+				"pre_",
+				"pre_x"
+			],
+			[
+				"od",
+				"odo_y\tfloat ⟠"
+			],
+			[
+				"odo_",
+				"odo_y\tfloat ⟠"
+			],
+			[
+				"bas",
+				"base_pub\tunknown ⟠"
+			],
+			[
+				"Tr",
+				"TransformListner"
+			],
+			[
+				"p",
+				"publish"
+			],
+			[
+				"quternion_",
+				"quaternion_from_euler"
+			],
+			[
+				"tr",
+				"trans\ttuple ⟠"
+			],
+			[
+				"rot",
+				"rot1\tlist ⟠"
+			],
+			[
+				"tra",
+				"trans1\tunknown ⟠"
+			],
+			[
+				"pressed",
+				"pressed1"
+			],
+			[
+				"presse",
+				"pressed1"
+			],
+			[
+				"el",
+				"elif \tkeyword ⟠"
+			],
+			[
+				"vib",
+				"vibrate_as(…)\tfunction ⟠"
+			],
+			[
+				"fra",
+				"frame_id"
+			],
+			[
+				"tf",
+				"tf2_msgs"
+			],
+			[
+				"d",
+				"disabled"
+			],
+			[
+				"robot",
+				"robot"
+			],
+			[
+				"E",
+				"Exception\ttype ⟠"
+			],
+			[
+				"ex",
+				"except \tkeyword ⟠"
+			],
+			[
+				"off",
+				"offset_vec\tlist ⟠"
+			],
+			[
+				"in",
+				"initial_pose"
+			],
+			[
+				"ca",
+				"camera"
+			],
+			[
+				"cma",
+				"Camera"
+			],
+			[
+				"camera",
+				"camera"
+			],
+			[
+				"m",
+				"map1"
+			],
+			[
+				"ori",
+				"orientation"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_tag_pose.py",
+			"settings":
+			{
+				"buffer_size": 2399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_tag.py",
+			"settings":
+			{
+				"buffer_size": 2186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "save_tag.py",
+			"settings":
+			{
+				"buffer_size": 2633,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "robot_pose_pub.py",
+			"settings":
+			{
+				"buffer_size": 2987,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\t\ttry:\n\t\t\tif i <= 4:\n\t\t\t\tm = PoseWithCovarianceStamped()\n\t\t\t\tm.header.frame_id = 'map'\n\t\t\t\tm.header.stamp = rospy.Time.now()\n\t\t\t\tm.pose.pose.position.x = trans1[0]\n\t\t\t\tm.pose.pose.position.y = trans1[1]\n\t\t\t\tm.pose.pose.orientation.z = rot2[2]\n\t\t\t\tm.pose.pose.orientation.w = rot2[3]\n\t\t\t\trospy.loginfo(\"initial_pose poselished\")\n\t\t\t\tpose.poselish(m)\n\t\t\t\ttime.sleep(3)\n\t\t\t\ti = i+1\n\t\t\texcept:\n\t\t\t\t#pass\n\t\t\t\trospy.signal_shutdown(\"closed\")\n\t\texcept Exception as e:\n\t\t\tprint e",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "publish_tags.py",
+			"settings":
+			{
+				"buffer_size": 944,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/tab/launch.py",
+			"settings":
+			{
+				"buffer_size": 3206,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_robot_pose.py",
+		"/home/katomaran-ros/catkin_ws8/src/tag_robo/launch/robot_pub.launch",
+		"/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_pose.py",
+		"/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/convert.py",
+		"/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/publish.py",
+		"/home/katomaran-ros/catkin_ws8/src/bno055_ros_bridge/hex_file/Bno055_13Jul.ino.hex",
+		"/home/katomaran-ros/catkin_ws8/src/razor_imu_9dof/nodes/display_3D_visualization.py",
+		"/home/katomaran-ros/catkin_ws8/src/robot_base_navigation/launch/robo_waiter.launch",
+		"/home/katomaran-ros/Downloads/web_control/scripts/web_control_patrol.py",
+		"/home/katomaran-ros/test1.py",
+		"/home/katomaran-ros/test2.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/robo_waiter_goal.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/tab/myname.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/repeat_goal.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/obstacle.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/rfid.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/singleton/myserial.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/logger.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/singleton/client.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/myname.py",
+		"/home/katomaran-ros/Downloads/ServiceRobot-RaspberryPi/audio.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/robo_waiter_goal.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/obstacle.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/table_recorder.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/path_recorder_rw.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/path_recorder.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/path_player_only.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/obstacle_sim.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/obstacle_detector.py",
+		"/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/gps_xy_convertor_goal_tol.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/path_player_only.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol_v3.urdf",
+		"/home/katomaran-ros/catkin_ws8/src/my_change/scripts/range_to_sonic.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/obstacle_detector.py",
+		"/home/katomaran-ros/catkin_ws8/src/my_change/scripts/obstacle_detection.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/path_recorder.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/obstacle_sim.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol.xacro",
+		"/home/katomaran-ros/catkin_ws8/src/robot_base_description/urdf/robot_base_3D.xacro",
+		"/home/katomaran-ros/catkin_ws8/src/robot_base_description/urdf/robot_base_3D.gazebo",
+		"/home/katomaran-ros/catkin_ws8/src/robot_base_description/urdf/robot_base.xacro",
+		"/home/katomaran-ros/catkin_ws8/src/robot_base_description/urdf/robot_base.gazebo",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol_2D_3D.xacro",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol_2D_3D.gazebo",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol_2D.gazebo",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol_2D.xacro",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_v3/urdf/patrol.gazebo",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/table_recorder.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/path_recorder_rw.py",
+		"/home/katomaran-ros/catkin_ws8/src/joy_waypoints/scripts/save_play_waypoints.py",
+		"/home/katomaran-ros/catkin_ws8/src/path_planner/scripts/path_manager.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_planner/scripts/robo_waiter.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_planner/scripts/path_finder_node.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/gps_xy_convertor_goal_tol.py",
+		"/home/katomaran-ros/catkin_ws3/src/patrol_planner/scripts/path_recorder.py",
+		"/home/katomaran-ros/catkin_ws3/src/patrol_planner/scripts/path_recorder_rw.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_follower/scripts/recorder.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/sensor_array.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/path_display.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/path_player.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/table_record.py",
+		"/home/katomaran-ros/catkin_ws8/src/patrol_planner/scripts/gps_xy_convertor.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_follower/scripts/path_loader.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_follower/src/path_follower.cpp",
+		"/home/katomaran-ros/catkin_ws3/src/path_planner/scripts/path_manager.py",
+		"/home/katomaran-ros/catkin_ws3/src/path_follower/scripts/path_recorder.py",
+		"/home/katomaran-ros/mr-robobase/web_control/scripts/launch1.2.py",
+		"/home/katomaran-ros/catkin_ws3/src/my_change/scripts/marvel_new.py",
+		"/home/katomaran-ros/mr-robobase/ros_marvelmind_package/scripts/marvel_to_odom1.1.py",
+		"/home/katomaran-ros/mr-robobase/joystick_servo/scripts/odometry_new.py",
+		"/home/katomaran-ros/catkin_ws3/src/ros_marvelmind_package/scripts/gps_to_odom.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/global_robot_pose.py",
+		"/home/katomaran-ros/catkin_ws3/src/ros_marvelmind_package/scripts/odom_marvel_new.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/find_tag.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/convert.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/global_tag_pose.py",
+		"/home/katomaran-ros/mr-robobase/joystick_servo/launch/alone.launch",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/launch/move_base.launch",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/config/costmap_local.yaml",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/config/costmap_global_static.yaml",
+		"/home/katomaran-ros/mr-robobase/path_planner/include/path_planner.h",
+		"/home/katomaran-ros/mr-robobase/line_follower/scripts/goal_planner.py",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/config/planner.yaml",
+		"/home/katomaran-ros/mr-robobase/common_msgs/package.xml",
+		"/home/katomaran-ros/catkin_ws3/src/ros_marvelmind_package/scripts/pose_marvel.py",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/config/costmap_converter_params.yaml",
+		"/home/katomaran-ros/Downloads/gps_to_odom.py",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/config/costmap_common.yaml",
+		"/home/katomaran-ros/catkin_ws3/src/teb_local_planner_tutorials/cfg/diff_drive/costmap_common_params.yaml",
+		"/home/katomaran-ros/catkin_ws3/src/robot_base_navigation/launch/move_base.launch",
+		"/home/katomaran-ros/mr-robobase/navigation_2dnav/package.xml",
+		"/home/katomaran-ros/mr-robobase/ros_marvelmind_package/scripts/publish_init_pose.py",
+		"/home/katomaran-ros/mr-robobase/ros_marvelmind_package/scripts/init_state_robot_loc.py",
+		"/home/katomaran-ros/catkin_ws3/src/apriltag_ros/apriltag_ros/launch/test.launch",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/docker.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/rectified.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/single_publish.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/new_try.py",
+		"/home/katomaran-ros/mr-robobase/person_follow/scripts/follower.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/new_docker.py",
+		"/home/katomaran-ros/catkin_ws3/src/joy_waypoints/scripts/save_play_waypoints.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/global_tag.py",
+		"/home/katomaran-ros/catkin_ws2/src/razor_imu_9dof/nodes/imu_node.py",
+		"/home/katomaran-ros/Downloads/docker/scripts/docker.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/just_test.py",
+		"/home/katomaran-ros/catkin_ws3/src/column/src/rectified_april_tag.cpp",
+		"/home/katomaran-ros/Downloads/mr-wheelbase/docker/scripts/docker.py",
+		"/home/katomaran-ros/Downloads/joy_new.py",
+		"/home/katomaran-ros/Downloads/vibrate.py",
+		"/home/katomaran-ros/catkin_ws3/src/joystick_new/launch/joystick.launch",
+		"/home/katomaran-ros/catkin_ws3/src/joy_waypoints/launch/waypoints_follow.launch",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/launch/globalize_robot.launch",
+		"/home/katomaran-ros/catkin_ws3/src/joy_waypoints/scripts/save&play_waypoints.py",
+		"/home/katomaran-ros/catkin_ws3/src/robot_base_description/urdf/robot_base.gazebo",
+		"/home/katomaran-ros/catkin_ws3/src/robot_base_description/urdf/robot_base.xacro",
+		"/home/katomaran-ros/model_editor_models/textured_shapes/model.sdf",
+		"/home/katomaran-ros/model_editor_models/textured_shapes/model.config",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/rectified.cpp",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/rectified_tag.cpp",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/publish.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/posting.py",
+		"/home/katomaran-ros/Downloads/loop_goal.py",
+		"/opt/ros/kinetic/lib/python2.7/dist-packages/tf/transformations.py",
+		"/tmp/kite_tutorial.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/config/camera_info.yaml",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/global_pose.py",
+		"/home/katomaran-ros/catkin_ws3/src/convert_tf/scripts/test.py",
+		"/home/katomaran-ros/python/test_april.py"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"april",
+			"listner",
+			"gh",
+			"pub",
+			"ls",
+			"V",
+			"cv",
+			"map1",
+			"gh",
+			"ls",
+			"V",
+			"float",
+			"enc_left",
+			"elapsed",
+			"angleCallback",
+			"wheelCallbackLEFT",
+			"wheelCallbackRIGHT",
+			"angleCallback",
+			"imu_cb",
+			"yaw_cb",
+			"spin",
+			"reconfigure",
+			"right",
+			"left",
+			"right",
+			"FL",
+			"FR",
+			"self.srv",
+			"srv",
+			"RobotBaseConfig",
+			"tohex",
+			"#logging",
+			"FR",
+			"FL",
+			"Trigger",
+			"motor_control",
+			"calc",
+			"motor_control",
+			"speed_lim",
+			"wheel_radius_FR",
+			"robot_width",
+			"run",
+			"shutdown",
+			"isDelivering",
+			"STOP",
+			"pick",
+			"Running",
+			"Runing",
+			"Runi",
+			"rospy.Timer",
+			"update_status",
+			"name",
+			"Park",
+			"reference",
+			"home_pose",
+			"info",
+			"restart",
+			"gmapping",
+			"update_status",
+			"wait_for_s",
+			"onStart",
+			"cotrol",
+			"orginal_nav",
+			"publish_saved_status",
+			"launch_map_saver",
+			"stop",
+			"start_path_editor",
+			"start_path_recording",
+			"config_saver",
+			"goal_reached",
+			"map_server_name",
+			"prev_method",
+			"launch_gmapping_node",
+			"planning_map_server",
+			"file_check",
+			"home_point",
+			"parking_point",
+			"save_regions",
+			"launch_no_goal_navigation",
+			"launch_no_goal_navigation_node",
+			"launch_no_goal_nvg_node",
+			"launch_gmapping_node",
+			"launch_map_server",
+			"map_server_name",
+			"start_no_goal_navg",
+			"stop",
+			"start_path_editor",
+			"planning_map_server",
+			"save_regions",
+			"regions",
+			"eval",
+			"shutdown",
+			"launch_map_server",
+			"origin_saver_nodename",
+			"launch_normal_navigation",
+			"map_dir",
+			"maps_dir",
+			"directory_service_cb",
+			"shutdown_prev_planner",
+			"map_exists",
+			"publish_saved_status",
+			"web_feedback",
+			"publish_saved_status",
+			"site_dir",
+			"launch_map_saver",
+			"listdir",
+			"map_exists",
+			"save_map_as",
+			"launch_map_saver",
+			"map_saver",
+			"publish_saved_status",
+			"map_exists",
+			"map_server_name",
+			"launch_map_config_saver",
+			"launch_map_saver",
+			"node_is_launched",
+			"launch_map_saver",
+			"map_saver",
+			"save_map_with_origin",
+			"reset_time",
+			"clear_tf",
+			"publish_status",
+			"client",
+			"shutdown_prev_planner",
+			"map_server_name",
+			"launch_map_config_saver",
+			"launch_nodes",
+			"launch_pose_publisher"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"listener",
+			"publisher",
+			"pose",
+			"listner",
+			"cam",
+			"tag_info",
+			"sender",
+			"listener",
+			"cam",
+			"fr",
+			"LEFT",
+			"RIGHT",
+			"logging",
+			"RIGHT",
+			"LEFT",
+			"control",
+			"config_file_path",
+			"Robot",
+			"getClientId()",
+			"chassis",
+			"base_link",
+			"chassis",
+			"map",
+			"Tags",
+			"hardware_interface/EffortJointInterface",
+			"gazebo_ros",
+			"gazebo-ros",
+			"gazebo-9",
+			"gazebo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_tag_pose.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/katomaran-ros/catkin_ws8/src/convert_tf/scripts/global_tag.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1642,
+								1642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "save_tag.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "robot_pose_pub.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2514,
+								2514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "publish_tags.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/katomaran-ros/catkin_ws8/src/robo_waiter/scripts/tab/launch.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "/home/katomaran-ros/rw.sublime-project",
+	"replace":
+	{
+		"height": 73.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

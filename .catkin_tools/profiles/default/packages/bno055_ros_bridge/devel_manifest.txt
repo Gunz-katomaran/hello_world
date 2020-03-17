@@ -1,0 +1,6 @@
+bno055_ros_bridge
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/share/bno055_ros_bridge/cmake/bno055_ros_bridgeConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/bno055_ros_bridge/cmake/bno055_ros_bridgeConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/share/bno055_ros_bridge/cmake/bno055_ros_bridgeConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/bno055_ros_bridge/cmake/bno055_ros_bridgeConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/lib/pkgconfig/bno055_ros_bridge.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/bno055_ros_bridge.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/lib/bno055_ros_bridge/bno055_ros_bridge /home/katomaran-ros/catkin_ws8/devel/lib/bno055_ros_bridge/bno055_ros_bridge

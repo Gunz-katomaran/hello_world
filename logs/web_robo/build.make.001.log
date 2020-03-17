@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target _web_robo_generate_messages_check_deps_ListDirectory[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _web_robo_generate_messages_check_deps_ListDirectory
+[  0%] Built target _web_robo_generate_messages_check_deps_WebFeedback
+[  0%] Built target _web_robo_generate_messages_check_deps_WebCommand
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  5%] [34m[1mGenerating EusLisp code from web_robo/ListDirectory.srv[0m
+[ 11%] [34m[1mGenerating Python code from SRV web_robo/ListDirectory[0m
+[ 17%] [34m[1mGenerating Javascript code from web_robo/ListDirectory.srv[0m
+[ 23%] [34m[1mGenerating Lisp code from web_robo/ListDirectory.srv[0m
+[ 29%] [34m[1mGenerating Python srv __init__.py for web_robo[0m
+[ 41%] Built target web_robo_generate_messages_nodejs
+[ 52%] Built target web_robo_generate_messages_lisp
+[ 70%] Built target web_robo_generate_messages_eus
+[ 76%] [34m[1mGenerating C++ code from web_robo/ListDirectory.srv[0m
+[ 88%] Built target web_robo_generate_messages_py
+[100%] Built target web_robo_generate_messages_cpp
+[100%] Built target web_robo_generate_messages

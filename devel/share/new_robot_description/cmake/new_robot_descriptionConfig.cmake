@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/share/new_robot_description/cmake/new_robot_descriptionConfig.cmake

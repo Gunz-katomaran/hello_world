@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/install
+
+Name: bno055_ros_bridge
+Description: Description of bno055_ros_bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

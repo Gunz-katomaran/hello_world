@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target robot_base_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/RobotBase.cfg: /home/katomaran-ros/catkin_ws8/devel/.private/robot_base/include/robot_base/RobotBaseConfig.h /home/katomaran-ros/catkin_ws8/devel/.private/robot_base/lib/python2.7/dist-packages/robot_base/cfg/RobotBaseConfig.py[0m
+Generating reconfiguration files for RobotBase in robot_base
+Wrote header file in /home/katomaran-ros/catkin_ws8/devel/.private/robot_base/include/robot_base/RobotBaseConfig.h
+[100%] Built target robot_base_gencfg

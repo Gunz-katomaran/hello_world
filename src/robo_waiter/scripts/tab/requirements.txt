@@ -1,0 +1,9 @@
+psutil
+evdev
+pyusb
+pyserial
+paho-mqtt
+simpleaudio
+
+# sudo apt-get install -y python3-dev libasound2-dev
+# pip install --upgrade pip setuptools

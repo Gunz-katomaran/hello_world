@@ -1,0 +1,144 @@
+{
+    "option": 0, 
+    "isHalt": false, 
+    "topic": "dotworld/robot/move", 
+    "message": "RFID Details", 
+    "rfids": [
+        {
+            "direction": "NONE", 
+            "name": "a", 
+            "tableNumber": 1, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "NONE", 
+            "name": "b", 
+            "tableNumber": 2, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "LEFT", 
+            "name": "c", 
+            "tableNumber": 3, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "d", 
+            "tableNumber": 4, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "NONE", 
+            "name": "e", 
+            "tableNumber": 5, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "f", 
+            "tableNumber": 6, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "NONE", 
+            "name": "g", 
+            "tableNumber": 7, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "LEFT", 
+            "name": "h", 
+            "tableNumber": 8, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "i", 
+            "tableNumber": 9, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "j", 
+            "tableNumber": 10, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "LEFT", 
+            "name": "k", 
+            "tableNumber": 11, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "l", 
+            "tableNumber": 12, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "NONE", 
+            "name": "m", 
+            "tableNumber": 13, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "NONE", 
+            "name": "n", 
+            "tableNumber": 14, 
+            "cardNumber": 9555, 
+            "duration": 10.0, 
+            "type": "TABLE", 
+            "id": 1
+        },
+        {
+            "direction": "RIGHT", 
+            "name": "o", 
+            "tableNumber": 15, 
+            "cardNumber": 9555, 
+            "duration": 20.0, 
+            "type": "TABLE", 
+            "id": 1
+        }
+    ], 
+    "recipient": "*"
+}

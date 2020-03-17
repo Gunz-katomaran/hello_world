@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Launches all motor driver nodes, odometry node -->
+<launch>
+
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.18116 0 0.3386 0 0 0 1 base_link laser 100" />
+  <node pkg="drivers_package" type="controller.py" name="controller_node" output="screen" />
+  <node pkg="drivers_package" type="odometry.py" name="odometry_node" output="screen" />
+  <node pkg="rosserial_python" type="serial_node.py" respawn="false" name="IMU_Node"  output="screen" args="_port:=/dev/IMU _baud:=115200"/>
+  <node pkg="bno055_ros_bridge" type="bno055_ros_bridge" name="bno055_ros_bridge" output="screen" />
+</launch>

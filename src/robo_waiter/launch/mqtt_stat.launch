@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node
+    name="mqtt_robo_waiter"
+    pkg="robo_waiter"
+    type="main_ros.py" 
+    output="screen"  />
+
+  <node
+    name="launch_switcher"
+    pkg="robo_waiter"
+    type="launch.py" 
+    output="screen"  />
+
+</launch>

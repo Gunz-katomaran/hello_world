@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/install
+
+Name: patrol_v3
+Description: Description of patrol_v3
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

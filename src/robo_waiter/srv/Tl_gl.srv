@@ -1,0 +1,5 @@
+string table_name
+string direction
+int32 duration
+---
+string reply

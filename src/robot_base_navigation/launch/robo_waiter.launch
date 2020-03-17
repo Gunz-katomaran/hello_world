@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<launch>
+  <node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" />
+  <!--node
+    name="robot_pose_publisher"
+    pkg="robot_pose_publisher"
+    type="robot_pose_publisher" /-->
+
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find robot_base_navigation)/robo_waiter.rviz" />
+
+     <include file="$(find robot_base_description)/launch/gazebo_rw.launch" />
+  <!--node name="map_server" pkg="map_server" type="map_server" args="$(find robo_waiter)/scripts/tab/config/restaurant.yaml"/-->
+
+      <!--- Run AMCL -->
+      <include file="$(find robot_base_navigation)/launch/amcl_rw.launch">
+      </include>
+
+      <!--- Run Move Base -->
+      <include file="$(find robot_base_navigation)/launch/move_base_rw.launch" />
+
+
+</launch>

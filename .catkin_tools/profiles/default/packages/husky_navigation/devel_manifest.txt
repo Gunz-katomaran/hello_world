@@ -1,0 +1,5 @@
+husky/husky_navigation
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_navigation/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_navigation/cmake/husky_navigationConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_navigation/share/husky_navigation/cmake/husky_navigationConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_navigation/cmake/husky_navigationConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_navigation/lib/pkgconfig/husky_navigation.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/husky_navigation.pc

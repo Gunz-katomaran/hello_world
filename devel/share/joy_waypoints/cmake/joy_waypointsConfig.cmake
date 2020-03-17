@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints/share/joy_waypoints/cmake/joy_waypointsConfig.cmake

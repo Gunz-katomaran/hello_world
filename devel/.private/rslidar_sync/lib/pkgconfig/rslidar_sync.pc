@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync
+
+Name: rslidar_sync
+Description: Description of rslidar_sync
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

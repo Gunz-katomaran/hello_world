@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="urdfpatrolv1">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="60" />
+      <inertia
+        ixx="0.2844"
+        ixy="0.045634"
+        ixz="-0.00042222"
+        iyy="0.4528"
+        iyz="0.000122"
+        izz="0.36594" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="frontleft">
+    <inertial>
+      <origin
+        xyz="-3.464E-06 4.8011E-06 0.00011186"
+        rpy="0 0 0" />
+      <mass
+        value="1.1763" />
+      <inertia
+        ixx="0.0072471"
+        ixy="2.8544E-07"
+        ixz="1.5823E-07"
+        iyy="0.0072464"
+        iyz="-6.4818E-07"
+        izz="0.012903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/frontleft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/frontleft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontleftj"
+    type="continuous">
+    <origin
+      xyz="0.72279 -0.74593 0.33375"
+      rpy="1.5708 0.14752 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="frontleft" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="frontright">
+    <inertial>
+      <origin
+        xyz="-3.7768E-06 4.7065E-06 0.00011187"
+        rpy="0 0 0" />
+      <mass
+        value="1.1763" />
+      <inertia
+        ixx="0.0072471"
+        ixy="2.8153E-07"
+        ixz="1.5813E-07"
+        iyy="0.0072464"
+        iyz="-6.4918E-07"
+        izz="0.012903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/frontright.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/frontright.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontrightj"
+    type="continuous">
+    <origin
+      xyz="0.72279 -1.343 0.33375"
+      rpy="1.5708 -0.1477 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="frontright" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rearleft">
+    <inertial>
+      <origin
+        xyz="-3.464E-06 4.8012E-06 0.00011186"
+        rpy="0 0 0" />
+      <mass
+        value="1.1763" />
+      <inertia
+        ixx="0.0072471"
+        ixy="2.8544E-07"
+        ixz="1.5823E-07"
+        iyy="0.0072464"
+        iyz="-6.4819E-07"
+        izz="0.012903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/rearleft.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/rearleft.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearleftj"
+    type="continuous">
+    <origin
+      xyz="0.08279 -0.74978 0.33375"
+      rpy="1.5708 0.14752 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rearleft" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rearright">
+    <inertial>
+      <origin
+        xyz="-3.7765E-06 4.7067E-06 0.00011187"
+        rpy="0 0 0" />
+      <mass
+        value="1.1763" />
+      <inertia
+        ixx="0.0072471"
+        ixy="2.8153E-07"
+        ixz="1.5813E-07"
+        iyy="0.0072464"
+        iyz="-6.4918E-07"
+        izz="0.012903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/rearright.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/rearright.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearrightj"
+    type="continuous">
+    <origin
+      xyz="0.08279 -1.3469 0.33375"
+      rpy="1.5708 -0.14733 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rearright" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="lidarlow">
+    <inertial>
+      <origin
+        xyz="2.2204E-16 0.00042266 -0.041213"
+        rpy="0 0 0" />
+      <mass
+        value="0.76222" />
+      <inertia
+        ixx="0.00098965"
+        ixy="5.4768E-24"
+        ixz="3.2923E-19"
+        iyy="0.0009897"
+        iyz="1.0607E-19"
+        izz="0.0011048" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/lidarlow.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/lidarlow.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidarlowj"
+    type="fixed">
+    <origin
+      xyz="1.0353 -1.0464 0.35995"
+      rpy="3.1416 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidarlow" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="lidarhigh">
+    <inertial>
+      <origin
+        xyz="2.2204E-16 0.00042266 -0.041213"
+        rpy="0 0 0" />
+      <mass
+        value="0.76" />
+      <inertia
+        ixx="0.00098965"
+        ixy="5.4768E-24"
+        ixz="3.2923E-19"
+        iyy="0.0009897"
+        iyz="1.0607E-19"
+        izz="0.0011048" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/lidarhigh.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://urdfpatrolv1/meshes/lidarhigh.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidarhighj"
+    type="fixed">
+    <origin
+      xyz="0.59471 -1.0464 1.0529"
+      rpy="3.1416 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidarhigh" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

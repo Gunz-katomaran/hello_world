@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/new_robot_description/lib/pkgconfig/new_robot_description.pc

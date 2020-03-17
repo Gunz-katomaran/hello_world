@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Launches all motor driver nodes,dometry node and lamp controller-->
+<launch>
+ 
+ <rosparam file="$(find robot_base)/config/param.yaml" command="load"  />
+
+ <!--node pkg="robot_base" type="port.py" respawn="false" name="port_searcher"  output="screen" /-->
+
+  <node pkg="robot_base" type="motor_driver1.py" respawn="false" name="motor1"  output="screen" />
+  <node pkg="robot_base" type="encoder_filter1.py" name="filter1" output="screen" />
+
+  <node pkg="robot_base" type="motor_driver2.py" respawn="false" name="motor2" output="screen" />
+  <node pkg="robot_base" type="encoder_filter2.py" name="filter2" output="screen" />
+
+  <node pkg="robot_base" type="motor_driver3.py" respawn="false" name="motor3" output="screen" />
+  <node pkg="robot_base" type="encoder_filter3.py" name="filter3" output="screen" />
+
+  <node pkg="robot_base" type="motor_driver4.py" respawn="false" name="motor4" output="screen" />
+  <node pkg="robot_base" type="encoder_filter4.py" name="filter4" output="screen" />
+
+  <node pkg="robot_base" type="diff_odom_alone_imu.py" name="odometry_node" output="screen" />
+  <!--node pkg="robot_base" type="controller.py" name="controller_node" output="screen" /-->
+  <!-- start rviz -->
+  <node pkg="rviz" type="rviz" name="my_rviz" 
+  args="-d $(find robot_base)/config.rviz"/>
+   
+
+</launch>

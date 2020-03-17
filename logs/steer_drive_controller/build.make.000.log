@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target steer_drive_controller[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/steer_drive_controller.dir/src/steer_drive_controller.cpp.o[0m
+[35m[1mScanning dependencies of target steer_drive_controller_steerbot[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/steer_drive_controller_steerbot.dir/test/common/src/steerbot.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/katomaran-ros/catkin_ws8/devel/.private/steer_drive_controller/lib/steer_drive_controller/steer_drive_controller_steerbot[0m
+[ 50%] Built target steer_drive_controller_steerbot
+[ 66%] [32mBuilding CXX object CMakeFiles/steer_drive_controller.dir/src/odometry.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/steer_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/katomaran-ros/catkin_ws8/devel/.private/steer_drive_controller/lib/libsteer_drive_controller.so[0m
+[100%] Built target steer_drive_controller

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find joystick_new)launch/joystick.launch"/>
+
+	<include file="$(find robot_base_servo)launch/alone.launch"/>
+
+</launch>

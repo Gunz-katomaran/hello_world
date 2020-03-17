@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_msgs/lib/python2.7/dist-packages/husky_msgs/msg/_HuskyStatus.py

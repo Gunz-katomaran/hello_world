@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_servo/share/roseus/ros/robot_base_servo/manifest.l

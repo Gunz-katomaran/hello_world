@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<launch>
+       <arg
+    name="model" 
+    default="$(find patrol_v3)/urdf/patrol.xacro"/>
+    <arg
+    name="gui"
+    default="False" />
+  <param
+    name="robot_description"
+    command="$(find xacro)/xacro --inorder $(arg model)" />
+  <param
+    name="use_gui"
+    value="$(arg gui)" />
+  <node
+    name="joint_state_publisher"
+    pkg="joint_state_publisher"
+    type="joint_state_publisher" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="state_publisher" />
+
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find robot_base_navigation)/patrol_test.rviz" />
+
+     <include file="$(find robot_base_description)/launch/test.launch" />
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find robot_base_navigation)/maps/warehouse_empty.yaml"/>
+
+      <!--- Run AMCL -->
+      <include file="$(find robot_base_navigation)/launch/amcl_patrol.launch" />
+
+      <!--- Run Move Base -->
+      <include file="$(find robot_base_navigation)/launch/move_base_patrol_ray.launch" />
+
+
+</launch>

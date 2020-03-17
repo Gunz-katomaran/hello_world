@@ -1,0 +1,18 @@
+Linked: (/home/katomaran-ros/catkin_ws8/devel/.private/my_change/share/my_change/cmake/my_changeConfig-version.cmake, /home/katomaran-ros/catkin_ws8/devel/share/my_change/cmake/my_changeConfig-version.cmake)
+Linked: (/home/katomaran-ros/catkin_ws8/devel/.private/my_change/share/my_change/cmake/my_changeConfig.cmake, /home/katomaran-ros/catkin_ws8/devel/share/my_change/cmake/my_changeConfig.cmake)
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/my_change/cmake/my_change-msg-extras.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/my_change/cmake/my_change-msg-paths.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/roseus/ros/my_change/manifest.l
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/roseus/ros/my_change/msg/Sonic.l
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/my_change/_index.js
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/my_change/msg/Sonic.js
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/gennodejs/ros/my_change/msg/_index.js
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/my_change/msg/my_change-msg.asd
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/my_change/msg/_package.lisp
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/my_change/msg/Sonic.lisp
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/common-lisp/ros/my_change/msg/_package_Sonic.lisp
+Linked: (/home/katomaran-ros/catkin_ws8/devel/.private/my_change/lib/pkgconfig/my_change.pc, /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/my_change.pc)
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/my_change/__init__.py
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/my_change/msg/__init__.py
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/my_change/msg/_Sonic.py
+Symlinking /home/katomaran-ros/catkin_ws8/devel/include/my_change/Sonic.h

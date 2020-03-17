@@ -1,0 +1,5 @@
+patrol_robot
+/home/katomaran-ros/catkin_ws8/devel/.private/urdfpatrolv1/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/urdfpatrolv1/share/urdfpatrolv1/cmake/urdfpatrolv1Config-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/urdfpatrolv1/cmake/urdfpatrolv1Config-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/urdfpatrolv1/share/urdfpatrolv1/cmake/urdfpatrolv1Config.cmake /home/katomaran-ros/catkin_ws8/devel/share/urdfpatrolv1/cmake/urdfpatrolv1Config.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/urdfpatrolv1/lib/pkgconfig/urdfpatrolv1.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/urdfpatrolv1.pc

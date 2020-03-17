@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake

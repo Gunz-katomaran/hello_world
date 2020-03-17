@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="no_static_map" default="false"/>
+<arg name="base_global_planner" default="global_planner/GlobalPlanner"/> <!-- packages for global plan.. change the pkg of your choice -->
+<arg name="base_local_planner" default="dwa_local_planner/DWAPlannerROS"/> <!-- packages for local plan.. change the pkg of your choice -->
+
+<!-- global plan package list:
+     1. global_planner/GlobalPlanner
+     2. navfn/NavfnROS -->
+
+
+<!-- local plan package list:
+     1. dwa_local_planner/DWAPlannerROS
+     2. base_local_planner/TrajectoryPlannerROS
+     3. ftc_local_planner/FTCPlanner  -->  
+
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" >
+    <remap from= "/cmd_vel" to="/patrol_base/cmd_vel" />
+
+
+    <param name="base_global_planner" value="$(arg base_global_planner)"/>
+    <param name="base_local_planner" value="$(arg base_local_planner)"/>
+
+    <!-- load the parameters of global and local planners -->
+    <rosparam file="$(find robot_base_navigation)/config2/planner_patrol2.yaml" command="load"/>
+
+    <!-- observation sources located in costmap_common.yaml -->
+    <!--rosparam file="$(find robot_base_navigation)/config/costmap_converter_params.yaml" command="load" ns="global_costmap" /-->
+    <rosparam file="$(find robot_base_navigation)/config2/costmap_common_patrol2.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find robot_base_navigation)/config2/costmap_common_patrol2.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find robot_base_navigation)/config2/recovery_params_patrol2.yaml" command="load"/>
+    <!-- local costmap, needs size -->
+    <rosparam file="$(find robot_base_navigation)/config2/costmap_local_patrol2.yaml" command="load" ns="local_costmap" />
+
+    <!-- static global costmap, static map provides size -->
+    <rosparam file="$(find robot_base_navigation)/config2/costmap_global_static_patrol2.yaml" command="load" ns="global_costmap" unless="$(arg no_static_map)"/>
+
+   
+</node>
+</launch>

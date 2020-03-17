@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/share/tag_robo/cmake/tag_roboConfig-version.cmake

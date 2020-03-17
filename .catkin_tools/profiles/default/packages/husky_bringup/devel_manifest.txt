@@ -1,0 +1,6 @@
+husky/husky_bringup
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_bringup/cmake/husky_bringupConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/husky_bringup/cmake/husky_bringupConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/etc/catkin/profile.d/50.husky_find_mag_config.sh /home/katomaran-ros/catkin_ws8/devel/etc/catkin/profile.d/50.husky_find_mag_config.sh
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/lib/pkgconfig/husky_bringup.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/husky_bringup.pc

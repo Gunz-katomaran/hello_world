@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/install
+
+Name: path_planner
+Description: Description of path_planner
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpath_planner
+Requires: pluginlib nav_core navfn nav_msgs roscpp geometry_msgs std_msgs message_runtime

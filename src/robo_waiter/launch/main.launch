@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+
+     <include file="$(find robot_base_navigation)/launch/robo_waiter.launch" />
+
+  <node
+    name="supporting_node"
+    pkg="robo_waiter"
+    type="mile.py" 
+    output="screen" />
+
+  <node
+    name="obstacle_node"
+    pkg="robo_waiter"
+    type="obstacle_sim.py" 
+    output="screen" />
+
+  <node
+    name="robot_pose_publisher"
+    pkg="robot_pose_publisher"
+    type="robot_pose_publisher" />
+
+</launch>

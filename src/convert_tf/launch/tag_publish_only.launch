@@ -1,0 +1,7 @@
+<launch>
+
+  <rosparam command="load" file="$(find convert_tf)/config/tag_info.yaml"/>
+
+  <node name="global" pkg="convert_tf" type="publish.py" output="screen"/>
+
+ </launch>

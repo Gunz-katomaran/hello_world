@@ -1,0 +1,71 @@
+After robot started:
+{
+    "status": "true",
+    "data": ["Robot Started"]
+}
+
+After gmapping node start/reset:
+{
+    "status": "true",
+    "data": ["Launched Gmapping"]
+}
+
+After gmapping node exit:
+{
+    "status": "true",
+    "data": ["Shutdown Gmapping"]
+}
+
+After map saved in gmapping node:
+{
+    "status": "true",
+    "data": ["Saved Map <map name>"]
+}
+
+After path_recording node start:
+{
+    "status": "true",
+    "data": ["Launched path_recording"]
+}
+
+After path_recording node exit:
+{
+    "status": "true",
+    "data": ["Shutdown path_recording"]
+}
+
+After saving milestone:
+{
+    "status": "true",
+    "data": ["Saved milestone"]
+}
+
+After saving table_point:
+{
+    "status": "true",
+    "data": ["Saved table_point"]
+}
+
+After saving pickup_point:
+{
+    "status": "true",
+    "data": ["Saved pickup_point"]
+}
+
+After saving parking_point:
+{
+    "status": "true",
+    "data": ["Saved parking_point"]
+}
+
+After saving home_point:
+{
+    "status": "true",
+    "data": ["Saved home_point <name>"]
+}
+
+After overall node exit:
+{
+    "status": "true",
+    "data": ["Exit Overallnode"]
+}

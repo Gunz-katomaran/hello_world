@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/roadmap_global_planner_msgs/share/roseus/ros/roadmap_global_planner_msgs/msg/AdjacencyList.l

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node pkg="joy" type="joy_node" respawn="false" name="joy_node"  output="screen" />
+
+  <node pkg="joystick_new" type="joystick_control.py" respawn="false" name="joystick_node"  output="screen" >
+    <remap from="cmd_vel" to="robot_base/cmd_vel" />
+  </node>
+
+  <node pkg="robot_pose_publisher" type="robot_pose_publisher" name="robo_pose" output="screen"/>
+
+  <node pkg="joy_waypoints" type="save_play_waypoints.py" name="waypoints_follow" output="screen"/>
+
+
+</launch>

@@ -1,0 +1,5 @@
+tag_robo
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/share/tag_robo/cmake/tag_roboConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/tag_robo/cmake/tag_roboConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/share/tag_robo/cmake/tag_roboConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/tag_robo/cmake/tag_roboConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/lib/pkgconfig/tag_robo.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/tag_robo.pc

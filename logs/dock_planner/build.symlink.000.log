@@ -1,0 +1,4 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/dock_planner/cmake/dock_plannerConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/dock_planner/cmake/dock_plannerConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libdock_planner_lib.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/dock_planner.pc

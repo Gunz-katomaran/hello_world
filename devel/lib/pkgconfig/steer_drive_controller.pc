@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/steer_drive_controller/lib/pkgconfig/steer_drive_controller.pc

@@ -1,0 +1,4 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/husky_bringup/cmake/husky_bringupConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/husky_bringup/cmake/husky_bringupConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/etc/catkin/profile.d/50.husky_find_mag_config.sh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/husky_bringup.pc

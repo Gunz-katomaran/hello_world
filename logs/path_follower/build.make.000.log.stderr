@@ -1,0 +1,7 @@
+In file included from [01m[K/home/katomaran-ros/catkin_ws8/src/path_follower/src/path_follower.cpp:2:0[m[K:
+[01m[K/home/katomaran-ros/catkin_ws8/src/path_follower/include/path_follower.h:19:38:[m[K [01;31m[Kfatal error: [m[Kpath_follower/PointLoad.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/path_follower_lib.dir/src/path_follower.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_follower_lib.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

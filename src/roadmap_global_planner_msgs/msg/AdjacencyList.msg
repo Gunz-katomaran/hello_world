@@ -1,0 +1,2 @@
+roadmap_global_planner_msgs/PointList[] adj_list
+roadmap_global_planner_msgs/MapPair[] map

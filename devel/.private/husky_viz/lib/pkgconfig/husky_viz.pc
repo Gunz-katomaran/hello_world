@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/husky_viz
+
+Name: husky_viz
+Description: Description of husky_viz
+Version: 0.4.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/bno055_ros_bridge/share/bno055_ros_bridge/cmake/bno055_ros_bridgeConfig-version.cmake

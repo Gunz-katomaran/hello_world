@@ -1,0 +1,4 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/stepback_and_steerturn_recovery/cmake/stepback_and_steerturn_recoveryConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/stepback_and_steerturn_recovery/cmake/stepback_and_steerturn_recoveryConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libstepback_and_steerturn_recovery.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/stepback_and_steerturn_recovery.pc

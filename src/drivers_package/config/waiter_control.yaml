@@ -1,0 +1,7 @@
+acceleration: 500
+deceleration: 500
+wheel_radius_LEFT: 0.1273
+wheel_radius_RIGHT: 0.1273
+gear_ratio: 20
+max_speed_p: 1800
+max_speed_n: -1800

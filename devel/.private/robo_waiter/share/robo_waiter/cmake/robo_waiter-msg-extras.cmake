@@ -1,0 +1,2 @@
+set(robo_waiter_MESSAGE_FILES "/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg/Tabled.msg;/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg/Mile.msg")
+set(robo_waiter_SERVICE_FILES "/home/katomaran-ros/catkin_ws8/src/robo_waiter/srv/Table.srv;/home/katomaran-ros/catkin_ws8/src/robo_waiter/srv/Tl_gl.srv;/home/katomaran-ros/catkin_ws8/src/robo_waiter/srv/Pause.srv;/home/katomaran-ros/catkin_ws8/src/robo_waiter/srv/Park.srv;/home/katomaran-ros/catkin_ws8/src/robo_waiter/srv/Obstacle.srv")

@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/lib/pkgconfig/swri_rospy.pc

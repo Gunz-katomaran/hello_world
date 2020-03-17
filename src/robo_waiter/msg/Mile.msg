@@ -1,0 +1,3 @@
+string table_name
+string table_direction
+int32 table_duration

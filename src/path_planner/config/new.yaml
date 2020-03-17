@@ -1,0 +1,57 @@
+point_0:
+  name:  a
+  pose:  [0.062003166406332265, 0.0036798629147844555]
+  orientation:  [-0.17798698036137983, 0.9840328189351736]
+  adj_points:  [0,1,7]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 1,7    #fill with points are connected to this point separated by comma ','
+
+point_1:
+  name:  b
+  pose:  [3.7718769977700455, 0.25975005463741874]
+  orientation:  [0.054853138294303404, 0.9984904128289431]
+  adj_points:  [1,0,2]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 0,2   #fill with points are connected to this point separated by comma ','
+
+point_2:
+  name:  c
+  pose:  [3.865525804718725, 3.850234663814384]
+  orientation:  [0.7093870803189394, 0.7048165110609642]
+  adj_points:  [2,1,3]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 1,3   #fill with points are connected to this point separated by comma ','
+
+point_3:
+  name:  d
+  pose:  [3.804482597508918, 7.636416965922716]
+  orientation:  [0.7707656110486069, 0.6371187878867031]
+  adj_points:  [3,2,4]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 2,4    #fill with points are connected to this point separated by comma ','
+
+point_4:
+  name:  e
+  pose:  [3.6357905241404485, 13.051887240788535]
+  orientation:  [0.7232626739944945, 0.6905724690117626]
+  adj_points:  [4,3,5]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 3,5   #fill with points are connected to this point separated by comma ','
+
+point_5:
+  name:  f
+  pose:  [-2.6671987985150416, 13.50124152086997]
+  orientation:  [0.9999980610730966, -0.0011540792890432135]
+  adj_points:  [5,4,6]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 4,6   #fill with points are connected to this point separated by comma ','
+
+point_6:
+  name:  g
+  pose:  [-3.3557836293393635, 6.151478940664509]
+  orientation:  [-0.7666608629638401, 0.6420517982509307]
+  adj_points:  [6,5,7]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 5,7   #fill with points are connected to this point separated by comma ','
+
+point_7:
+  name:  h
+  pose:  [-3.5607622016887386, 0.4545413327417155]
+  orientation:  [-0.7212948232042983, 0.6926272505632458]
+  adj_points:  [7,6,0]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points: 6,0   #fill with points are connected to this point separated by comma ','
+
+no_of_points: 8

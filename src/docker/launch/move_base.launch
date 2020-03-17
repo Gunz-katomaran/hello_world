@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="no_static_map" default="false"/>
+
+  <arg name="base_global_planner" default="global_planner/GlobalPlanner"/>
+  <arg name="base_local_planner" default="dwa_local_planner/DWAPlannerROS"/>
+<!-- "carrot_planner/CarrotPlanner" -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <remap from= "/cmd_vel" to="/cmd_vel" />
+      <remap from="/scan" to="/scan" />
+
+    <param name="base_global_planner" value="$(arg base_global_planner)"/>
+    <param name="base_local_planner" value="$(arg base_local_planner)"/>
+
+    <rosparam file="$(find docker)/config/planner.yaml" command="load"/>
+
+    <rosparam file="$(find docker)/config/costmap_common.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find docker)/config/costmap_common.yaml" command="load" ns="local_costmap" />
+
+    <!-- local costmap, needs size -->
+    <rosparam file="$(find docker)/config/costmap_local.yaml" command="load" ns="local_costmap" />
+
+    <!-- static global costmap, static map provides size -->
+    <rosparam file="$(find docker)/config/costmap_global_static.yaml" command="load" ns="global_costmap" unless="$(arg no_static_map)"/>
+
+
+</node>
+</launch>

@@ -1,0 +1,8 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/column/cmake/columnConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/column/cmake/columnConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libcolumn.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/column/pose_tf
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/column/world_modeling
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/column/local_planner
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/column/rectified_april_tag
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/column.pc

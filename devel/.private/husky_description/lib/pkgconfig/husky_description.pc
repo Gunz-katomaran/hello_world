@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/husky_description
+
+Name: husky_description
+Description: Description of husky_description
+Version: 0.4.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,12 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./setup.sh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./env.sh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./local_setup.bash
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./setup.zsh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./local_setup.sh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./local_setup.zsh
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./setup.bash
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./_setup_util.py
+Symlinking /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/catkin_tools_prebuild.pc

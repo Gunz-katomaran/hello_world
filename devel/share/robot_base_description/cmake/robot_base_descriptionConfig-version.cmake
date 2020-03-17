@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_description/share/robot_base_description/cmake/robot_base_descriptionConfig-version.cmake

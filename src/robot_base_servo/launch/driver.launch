@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Launches  motor driver node and lamp controller-->
+<launch>
+
+	<rosparam file="$(find robot_base_servo)/config/param.yaml" command="load"  />
+
+	<node pkg="robot_base_servo" type="servo.py" respawn="false" name="driver_node"  output="screen" />
+
+	<node pkg="robot_base_servo" type="controller.py" respawn="false" name="controller_node"  output="screen" />
+
+</launch>

@@ -1,0 +1,4 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/libwaypoint_global_planner.so
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/waypoint_global_planner.pc

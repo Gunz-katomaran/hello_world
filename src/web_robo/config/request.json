@@ -1,0 +1,528 @@
+To start/ reset gmapping:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "start",
+        "control": "joystick"
+    }
+}
+
+To save gmapping map:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "save",
+        "site_name": "test_8",
+        "map_name": "map_1"
+    }
+}
+
+To exit gmapping:
+{
+    "authorization": "auth_token",
+    "mode": "gmapping",
+    "command":
+    {
+        "gmapping_command": "exit"
+    }
+}
+
+To start No goal Navn:
+{
+    "authorization": "auth_token",
+    "mode": "launch",
+    "command":
+    {
+        "task": "start",
+        "command":
+        {
+            "type": "manual",
+            "control": "joystick",
+            "map_name": "map_1",
+            "site_name": "test_5"
+        }
+    }
+}
+
+
+To start recording path:
+{
+    "authorization": "auth_token",
+    "mode": "manual",
+    "type": "record",
+    "command":
+    {
+        "record_command": "Start_Path_Recording",
+        "path_name": "path1"
+    }
+}
+
+
+To save a Milestone:
+{
+    "authorization": "auth_token",
+    "mode": "manual",
+    "type": "record",
+    "command":
+    {
+        "record_command": "Save_Milestone",
+        "milestone_name": "None"
+    }
+}
+
+
+
+To Finish recording path:
+{
+    "authorization": "auth_token",
+    "mode": "manual",
+    "type": "record",
+    "command":
+    {
+        "record_command": "Finish_Path_Recording",
+        "milestones": ["milestone1", "milestone2", "milestone3"]
+    }
+}
+
+
+
+To edit path:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "edit_path",
+    "command":
+    {
+        "map_name": "map_6",
+        "site_name": "test_6",
+        "path_name": "demo6_path",
+        "edits":
+        [{
+            "action": "delete_milestone",
+            "milestone_name": "joy_milestone1"
+        },
+        {
+            "action": "path_cleanup",
+            "from": "1",
+            "to": "3"
+        },
+        {
+            "action": "path_milestone",
+            "point_id": "1",
+            "milestone_name": "path_ms_1"
+        },
+        {
+            "action": "rename",
+            "old_name": "joy_milestone2",
+            "new_name": "renamed2"
+        },
+        {
+            "action": "external_milestone",
+            "x": "4.29",
+            "y": "3.48",
+            "z": "0",
+            "w": "1",
+            "milestone_name": "ext1"
+        }]
+    }
+}
+
+
+To save regions
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "regions",
+    "command":
+    {
+        "map_name": "map_6",
+        "site_name": "test_12",
+        "regions":
+        [
+            {
+                "vertices": "[[-9.807661056518555, -2.7785158157348633], [-9.785391807556152, 2.823568344116211], [-6.949185371398926, 2.8775758743286133], [-6.914725303649902, -2.739511489868164]]", 
+                "name": "room1", 
+                "prohibitted": "false"
+            }, 
+            {
+                "vertices": "[[8.186755180358887, 3.0755722522735596], [8.110827445983887, -2.6570937633514404], [11.5949068069458, -2.646972417831421], [11.55741024017334, 3.0357487201690674]]", 
+                "name": "room2", 
+                "prohibitted": "false"
+            }, 
+            {
+                "vertices": "[[2.1095306873321533, 2.810124635696411], [6.843757629394531, 2.8457295894622803], [6.807208061218262, 3.848118543624878], [2.1866016387939453, 4.007688522338867]]", 
+                "name": "room3", 
+                "prohibitted": "true"
+            }
+        ]
+    }
+}
+
+
+
+To request map
+{
+    "authorization": "auth_token",
+    "mode": "request",
+    "type": "Map_Server",
+    "command":
+    {
+        "site_name": "test_1",
+        "map_name": "map_1"
+    }
+}
+
+After Finishing Planning
+{
+    "authorization": "auth_token",
+    "mode": "request",
+    "type": "Map_Server",
+    "command":
+    {
+        "site_name": "test_1",
+        "map_name": "map_1"
+    }
+}
+
+
+
+
+Save Plan:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "plan",
+    "command":
+    {
+        "map_name": "map_1",
+        "site_name": "test_9",
+        "plan_name": "demo9_plan",
+        "region_actions":
+        [
+            {
+            "region": "park", 
+            "actions": {
+                "change_speed": {
+                    "lin_vel": "1",
+                    "ang_vel": "0.5"
+                    }, 
+                "lnpr": {
+                    "cam_name": "cam1",
+                    "stream_video": "false"
+                    }
+                }
+            }, 
+            {
+            "region": "temple", 
+            "actions": {
+                "change_speed": {
+                    "lin_vel": "1.2",
+                    "ang_vel": "0.7"
+                        }, 
+                "lnpr": {
+                    "cam_name": "cam2",
+                    "stream_video": "false"
+                        }, 
+                "trash": {
+                    "collect_trash": "false", 
+                    "send_alert": "true"}, 
+                "alert": {}
+                }
+            }
+        ],
+        "tasks":
+        [{
+            "type_of_command": "Load_Path",
+            "command": "demo9_path"
+        },
+        { 
+            "type_of_command": "Go_to_a_Milestone",
+            "command": "path_ms_1"
+        },
+        {
+            "type_of_command": "act",
+            "command": "Capture_Image"
+        },
+        {
+            "type_of_command": "Go_to_a_Milestone",
+            "command": "joy_milestone3"
+        },
+        {
+            "type_of_command": "act",
+            "command": "Start_Streaming"
+        },
+        {
+            "type_of_command": "Go_to_a_Milestone",
+            "command": "ext1"
+        }, 
+        {
+            "type_of_command": "act",
+            "command": "Stop_Streaming"
+        }]
+    }
+}
+
+To schedule now:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "new_schedule",
+    "command":
+    {
+        "map_name": "map_1",
+        "site_name": "test_7",
+        "plan_name": "demo7_plan",
+        "repeat": "False",
+        "schedule": "now"
+    }
+}
+
+To schedule once:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "new_schedule",
+    "command":
+    {
+        "map_name": "warehouse",
+        "site_name": "sim",
+        "plan_name": "plan_abc",
+        "repeat": "False",
+        "schedule": "dd/mm/yyyy_HH:MM:SS"
+    }
+}
+
+To schedule for every 2 days:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "new_schedule",
+    "command":
+    {
+        "map_name": "warehouse",
+        "site_name": "sim",
+        "plan_name": "plan_abc",
+        "repeat": "True",
+        "schedule": 
+        {
+            "every": "day",
+            "interval": "2",
+            "at": "HH:MM:SS"
+        }
+    }
+}
+
+To schedule for every day:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "new_schedule",
+    "command":
+    {
+        "map_name": "warehouse",
+        "site_name": "sim",
+        "plan_name": "plan_abc",
+        "repeat": "True",
+        "schedule": 
+        {
+            "every": "day",
+            "interval": "1",
+            "at": "HH:MM:SS"
+        }
+    }
+}
+
+To schedule for every week:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "new_schedule",
+    "command":
+    {
+        "map_name": "warehouse",
+        "site_name": "sim",
+        "plan_name": "plan_abc",
+        "repeat": "True",
+        "schedule": 
+        {
+            "every": "tuesday",
+            "at": "9:30"
+        }
+    }
+}
+
+
+To delete schedule:
+{
+    "authorization": "auth_token",
+    "mode": "save",
+    "type": "delete_schedule",
+    "command":
+    {
+        "map_name": "warehouse",
+        "site_name": "sim",
+        "plan_name": "plan_abc",
+        "repeat": "False",
+        "schedule": "now"
+    }
+}
+
+
+
+Safety Commands:
+To  Cancel All Goals
+{
+    "authorization": "auth_token",
+    "action": "Cancel_Goal"
+}
+
+To Pause current plan:
+{
+    "authorization": "auth_token",
+    "action": "pause_plan"
+}
+
+To Stop current plan:
+{
+    "authorization": "auth_token",
+    "action": "cancel_plan"
+}
+
+To Resume current plan:
+{
+    "authorization": "auth_token",
+    "action": "resume_plan"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To shutdown any Navigation
+{
+    "authorization": "auth_token",
+    "mode": "launch",
+    "command":
+    {
+        "task": "exit"
+    }
+}
+To launch any Navigation:
+{
+    "authorization": "auth_token",
+    "mode": "launch",
+    "command":
+    {
+        "task": "start",
+        "command":
+        {
+            "type": "patrol",
+            "map_name": "warehouse",
+            "site_name": "sim"
+        }
+    }
+}
+
+{
+    "authorization": "auth_token",
+    "mode": "launch",
+    "command":
+    {
+        "task": "start",
+        "command":
+        {
+            "type": "manual",
+            "control": "joystick",
+            "map_name": "warehouse",
+            "site_name": "sim"
+        }
+    }
+}
+
+Auto:
+Normal Goal:
+{
+    "authorization": "auth_token",
+    "mode": "auto",
+    "type": "all",
+    "command":
+    {
+        "x": "x_wrto_map",
+        "y": "y_wrto_map",
+        "z": "z_wrto_map",
+        "w": "w_wrto_map"
+    }
+}
+
+To go to a Milestone:
+{
+    "authorization": "auth_token",
+    "mode": "auto",
+    "type": "milestone",
+    "command":
+    {
+        "milestone_command": "Go_to_a_Milestone",
+        "milestone_name": "web_ms1"
+    }
+}
+
+To Load a Path:
+{
+    "authorization": "auth_token",
+    "mode": "auto",
+    "type": "milestone",
+    "command":
+    {
+        "milestone_command": "Load_Path",
+        "path_name": "joy_08_02_2020__17:28:38_coord"
+    }
+}
+
+
+
+
+
+
+
+Action Commands:
+Action:
+
+To capture a Picture:
+{
+    "authorization": "auth_token",
+    "action": "Capture_Image"
+}
+
+To start Video Streaming:
+{
+    "authorization": "auth_token",
+    "action": "Start_Streaming",
+    "command":
+    {
+        "stream_to": "gui/web",
+        "url": "",
+        "camera_id": "1/ 2/  3/  4",
+    }
+}
+
+To Finish Video Streaming:
+{
+    "authorization": "auth_token",
+    "action": "Stop_Streaming"
+}

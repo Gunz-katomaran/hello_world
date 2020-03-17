@@ -1,0 +1,4 @@
+For Joystick Contol:
+1.run command "roslaunch drivers_package teleop.launch"
+2.the slide button on the joystick should be on "D" side
+3.before operating click the "LB" force feedback button twice 

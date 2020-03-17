@@ -1,0 +1,23 @@
+<!-- Launches camera driver, april tag detection, move base and docker node that gives goal to move base-->
+
+
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="base_link_to_camera_tf" args="-0.35 0 0.51 1.57079 0 -1.57079 base_link camera 10" />
+<node pkg="tf" type="static_transform_publisher" name="odom_to_map_dock" args="0 0 0 0 0 0  map_dock odom  10" />
+<!--node pkg="robot_base" type="diff_odom_alone_imu.py" name="docker_odometry_node" output="screen" /"0 0 1.0 -1.57079 0 -1.57079 base_link camera 10"
+<node pkg="tf" type="static_transform_publisher" name="base_link_to_map" args="0 1 0 0 0 0  map base_link  10" />-->
+
+<node name="map_server" pkg="map_server" type="map_server" output="screen" args="$(find docker)/maps/map.yaml">
+<param name="frame_id" type="str" value="map_dock" />
+</node>
+
+<include file="$(find apriltags2_ros)/launch/cam.launch" />
+<include file="$(find apriltags2_ros)/launch/continuous_detection.launch" />
+<include file="$(find docker)/launch/move_base.launch" />
+<node name="docker" pkg="docker" type="docker.py" output="screen" />
+
+
+
+
+</launch>

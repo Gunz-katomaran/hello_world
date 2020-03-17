@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/my_change/share/my_change/cmake/my_changeConfig-version.cmake

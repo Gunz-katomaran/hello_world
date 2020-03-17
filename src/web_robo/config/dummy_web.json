@@ -1,0 +1,10 @@
+{
+    "authorization": "auth_token",
+    "mode": "path_recording",
+    "type": "request",
+    "command":
+    {
+        "command":"navigation",
+        "process":"exit"
+    }
+}

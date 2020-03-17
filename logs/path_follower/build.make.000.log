@@ -1,0 +1,73 @@
+[35m[1mScanning dependencies of target _path_follower_generate_messages_check_deps_PointLoad[0m
+[35m[1mScanning dependencies of target path_follower_lib[0m
+[  0%] Built target _path_follower_generate_messages_check_deps_PointLoad
+[35m[1mScanning dependencies of target _path_follower_generate_messages_check_deps_Nearest[0m
+[  0%] Built target _path_follower_generate_messages_check_deps_Nearest
+[35m[1mScanning dependencies of target _path_follower_generate_messages_check_deps_GoalLoad[0m
+[  0%] Built target _path_follower_generate_messages_check_deps_GoalLoad
+[35m[1mScanning dependencies of target _path_follower_generate_messages_check_deps_PoseList[0m
+[  0%] Built target _path_follower_generate_messages_check_deps_PoseList
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _path_follower_generate_messages_check_deps_PointList[0m
+[  3%] [32mBuilding CXX object CMakeFiles/path_follower_lib.dir/src/path_follower.cpp.o[0m
+[  3%] Built target _path_follower_generate_messages_check_deps_PointList
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  3%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  3%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target path_follower_generate_messages_py[0m
+[  6%] [34m[1mGenerating Python from MSG path_follower/PointList[0m
+[ 10%] [34m[1mGenerating Python from MSG path_follower/PoseList[0m
+[ 13%] [34m[1mGenerating Python code from SRV path_follower/PointLoad[0m
+[ 16%] [34m[1mGenerating Python code from SRV path_follower/Nearest[0m
+[ 20%] [34m[1mGenerating Python code from SRV path_follower/GoalLoad[0m
+[ 23%] [34m[1mGenerating Python msg __init__.py for path_follower[0m
+[ 26%] [34m[1mGenerating Python srv __init__.py for path_follower[0m
+[ 26%] Built target path_follower_generate_messages_py
+[35m[1mScanning dependencies of target path_follower_generate_messages_nodejs[0m
+[ 30%] [34m[1mGenerating Javascript code from path_follower/PointList.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from path_follower/PoseList.msg[0m
+[ 36%] [34m[1mGenerating Javascript code from path_follower/PointLoad.srv[0m
+[ 40%] [34m[1mGenerating Javascript code from path_follower/Nearest.srv[0m
+[ 43%] [34m[1mGenerating Javascript code from path_follower/GoalLoad.srv[0m
+[ 43%] Built target path_follower_generate_messages_nodejs
+[35m[1mScanning dependencies of target path_follower_generate_messages_lisp[0m
+[ 46%] [34m[1mGenerating Lisp code from path_follower/PointList.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from path_follower/PoseList.msg[0m
+[ 53%] [34m[1mGenerating Lisp code from path_follower/PointLoad.srv[0m
+[ 56%] [34m[1mGenerating Lisp code from path_follower/Nearest.srv[0m
+[ 60%] [34m[1mGenerating Lisp code from path_follower/GoalLoad.srv[0m
+[ 60%] Built target path_follower_generate_messages_lisp
+[35m[1mScanning dependencies of target path_follower_generate_messages_eus[0m
+[ 63%] [34m[1mGenerating EusLisp code from path_follower/PointList.msg[0m
+[ 66%] [34m[1mGenerating EusLisp code from path_follower/PoseList.msg[0m
+[ 70%] [34m[1mGenerating EusLisp code from path_follower/PointLoad.srv[0m
+[ 73%] [34m[1mGenerating EusLisp code from path_follower/Nearest.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from path_follower/GoalLoad.srv[0m
+[ 80%] [34m[1mGenerating EusLisp manifest code for path_follower[0m
+In file included from [01m[K/home/katomaran-ros/catkin_ws8/src/path_follower/src/path_follower.cpp:2:0[m[K:
+[01m[K/home/katomaran-ros/catkin_ws8/src/path_follower/include/path_follower.h:19:38:[m[K [01;31m[Kfatal error: [m[Kpath_follower/PointLoad.h: No such file or directory
+compilation terminated.
+CMakeFiles/path_follower_lib.dir/build.make:62: recipe for target 'CMakeFiles/path_follower_lib.dir/src/path_follower.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/path_follower_lib.dir/all' failed
+make[2]: *** [CMakeFiles/path_follower_lib.dir/src/path_follower.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_follower_lib.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 80%] Built target path_follower_generate_messages_eus
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

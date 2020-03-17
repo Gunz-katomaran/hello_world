@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Launches all motor driver nodes, odometry node -->
+<launch>
+  <node pkg="rosserial_python" type="serial_node.py" respawn="false" name="IMU_Node"  output="screen" args="_port:=/dev/IMU _baud:=115200"/>
+  <node pkg="bno055_ros_bridge" type="bno055_ros_bridge" respawn="false" name="bno055_Node"  output="screen"/>
+
+</launch>

@@ -1,0 +1,2 @@
+/home/nvidia/arduino-1.8.9/hardware/tools/avr/bin/avrdude -C/home/nvidia/arduino-1.8.9/hardware/tools/avr/etc/avrdude.conf -v -patmega328p -carduino -P/dev/ard -b115200 -D -Uflash:w:/home/nvidia/Downloads/Bno055_13Jul.ino.hex:i
+

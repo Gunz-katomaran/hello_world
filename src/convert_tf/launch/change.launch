@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="change_node" clear_params="true" output="screen" >
+    <!-- Remap topics from those used in code to those on the ROS network -->
+    <remap from="cmd_vel" to="robot_base/cmd_vel" />
+
+  </node>
+
+</launch>

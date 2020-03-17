@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/marvelmind_nav/share/gennodejs/ros/marvelmind_nav/_index.js

@@ -1,0 +1,35 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/katomaran-ros/catkin_ws8/devel/.private/robo_waiter
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/katomaran-ros/catkin_ws8/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/katomaran-ros/catkin_ws8/devel;/opt/ros/kinetic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/katomaran-ros/catkin_ws8/build/robo_waiter/test_results
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.12")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.20
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[31m[1mCMake Error[0m at /home/katomaran-ros/catkin_ws8/build/robo_waiter/cmake/robo_waiter-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg/Mile.msg' depends on.
+  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [int] in package [robo_waiter] with paths
+  [['/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg',
+  '/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:40 (generate_messages)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/katomaran-ros/catkin_ws8/build/robo_waiter/CMakeFiles/CMakeOutput.log".
+See also "/home/katomaran-ros/catkin_ws8/build/robo_waiter/CMakeFiles/CMakeError.log".
+Makefile:850: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~publish_tf" : \b [bool] Publish TF between base_frame_id and odom_frame_id min: False, default: True, max: True
+

@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_gazebo/share/robot_base_gazebo/cmake/robot_base_gazeboConfig.cmake

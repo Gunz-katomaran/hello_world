@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/web_robo/share/web_robo/cmake/web_robo-msg-extras.cmake

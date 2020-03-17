@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/urdfpatrolv1
+
+Name: urdfpatrolv1
+Description: Description of urdfpatrolv1
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

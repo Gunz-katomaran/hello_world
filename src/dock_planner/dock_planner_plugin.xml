@@ -1,0 +1,7 @@
+<library path="lib/libdock_planner_lib">
+  <class name="dock_planner/DockPlanner" type="dock_planner::DockPlanner" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      This planner connects a straight line from robot to goal.
+    </description>
+  </class>
+</library>

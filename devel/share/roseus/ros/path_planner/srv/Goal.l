@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/path_planner/share/roseus/ros/path_planner/srv/Goal.l

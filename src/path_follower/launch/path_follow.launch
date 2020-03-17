@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find path_follower)/config/points.yaml" command="load"  />
+	<node pkg="path_follower" type="path_loader.py" respawn="false" name="path_loader_node"  output="screen" />
+</launch>

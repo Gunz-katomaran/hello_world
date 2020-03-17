@@ -1,0 +1,5 @@
+joy_waypoints
+/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints/share/joy_waypoints/cmake/joy_waypointsConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/joy_waypoints/cmake/joy_waypointsConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints/share/joy_waypoints/cmake/joy_waypointsConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/joy_waypoints/cmake/joy_waypointsConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/joy_waypoints/lib/pkgconfig/joy_waypoints.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/joy_waypoints.pc

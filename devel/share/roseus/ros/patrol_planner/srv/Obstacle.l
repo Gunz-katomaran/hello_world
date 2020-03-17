@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/patrol_planner/share/roseus/ros/patrol_planner/srv/Obstacle.l

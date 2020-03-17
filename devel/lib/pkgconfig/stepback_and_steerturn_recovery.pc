@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/stepback_and_steerturn_recovery/lib/pkgconfig/stepback_and_steerturn_recovery.pc

@@ -1,0 +1,7 @@
+ros_rslidar/rslidar_sync
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/share/rslidar_sync/cmake/rslidar_syncConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/rslidar_sync/cmake/rslidar_syncConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/share/rslidar_sync/cmake/rslidar_syncConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/rslidar_sync/cmake/rslidar_syncConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/lib/pkgconfig/rslidar_sync.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/rslidar_sync.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/lib/rslidar_sync/rslidar_sync_3lidar_node /home/katomaran-ros/catkin_ws8/devel/lib/rslidar_sync/rslidar_sync_3lidar_node
+/home/katomaran-ros/catkin_ws8/devel/.private/rslidar_sync/lib/rslidar_sync/rslidar_sync_2lidar_node /home/katomaran-ros/catkin_ws8/devel/lib/rslidar_sync/rslidar_sync_2lidar_node

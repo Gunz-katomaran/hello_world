@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find path_planner)/config/new.yaml" command="load" />
+	<node pkg="path_planner" type="new.py" respawn="false" name="loop_node"  output="screen"/>
+</launch>

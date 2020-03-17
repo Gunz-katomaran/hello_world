@@ -1,0 +1,30 @@
+(cl:defpackage robo_waiter-srv
+  (:use )
+  (:export
+   "OBSTACLE"
+   "<OBSTACLE-REQUEST>"
+   "OBSTACLE-REQUEST"
+   "<OBSTACLE-RESPONSE>"
+   "OBSTACLE-RESPONSE"
+   "PARK"
+   "<PARK-REQUEST>"
+   "PARK-REQUEST"
+   "<PARK-RESPONSE>"
+   "PARK-RESPONSE"
+   "PAUSE"
+   "<PAUSE-REQUEST>"
+   "PAUSE-REQUEST"
+   "<PAUSE-RESPONSE>"
+   "PAUSE-RESPONSE"
+   "TABLE"
+   "<TABLE-REQUEST>"
+   "TABLE-REQUEST"
+   "<TABLE-RESPONSE>"
+   "TABLE-RESPONSE"
+   "TL_GL"
+   "<TL_GL-REQUEST>"
+   "TL_GL-REQUEST"
+   "<TL_GL-RESPONSE>"
+   "TL_GL-RESPONSE"
+  ))
+

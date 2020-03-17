@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/robot_base_servo/share/gennodejs/ros/robot_base_servo/srv/_index.js

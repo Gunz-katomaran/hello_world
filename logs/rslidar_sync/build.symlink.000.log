@@ -1,0 +1,5 @@
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/rslidar_sync/cmake/rslidar_syncConfig-version.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/share/rslidar_sync/cmake/rslidar_syncConfig.cmake
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/rslidar_sync.pc
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/rslidar_sync/rslidar_sync_3lidar_node
+Symlinking /home/katomaran-ros/catkin_ws8/devel/lib/rslidar_sync/rslidar_sync_2lidar_node

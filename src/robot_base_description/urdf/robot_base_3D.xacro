@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+
+<robot
+  name="robot_base"
+  xmlns:xacro="http://www.ros.org/wiki/xacro"
+  >
+ 
+<xacro:include filename="$(find robot_base_description)/urdf/robot_base_3D.gazebo" />
+  <xacro:property name="cameraSize" value="0.05"/>
+  <xacro:property name="cameraMass" value="0.1"/>
+  <xacro:arg name="gpu" default="true"/>
+  <xacro:property name="gpu" value="$(arg gpu)" />
+
+  <link  name="base_link" />
+ 
+   <link
+    name="chassis">
+    <inertial>
+      <origin
+        xyz="-0.025921 -0.00023881 -0.093361"
+        rpy="0 0 0" />
+      <mass
+        value="30" />
+      <inertia
+        ixx="0.28974"
+        ixy="-0.003469"
+        ixz="0.037331"
+        iyy="0.71812"
+        iyz="-0.0010571"
+        izz="0.69853" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/CHASSIS.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.92549 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/CHASSIS.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+
+  <joint
+    name="Jchassis"
+    type="fixed">
+    <origin
+      xyz="0 0 0.35"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="chassis" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+
+  <link
+    name="BACKLEFT">
+    <inertial>
+      <origin
+        xyz="1.65962350251458E-08 -8.84673626022625E-09 -0.0498964284532317"
+        rpy="0 0 0" />
+      <mass
+        value="0.77232206628976" />
+      <inertia
+        ixx="0.00443896849024447"
+        ixy="-3.02140628597077E-11"
+        ixz="5.442779494062E-11"
+        iyy="0.00443896845341419"
+        iyz="-9.99835468776006E-10"
+        izz="0.00774013288362775" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/BACKLEFT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/BACKLEFT.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JBACKLEFT"
+    type="continuous">
+    <origin
+      xyz="-0.16863 -0.10771 -0.225"
+      rpy="-1.5708 -0.065299 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="BACKLEFT" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+
+  <link
+    name="FRONTLEFT">
+    <inertial>
+      <origin
+        xyz="1.65962353582128E-08 -8.84674272727537E-09 -0.0498964284532357"
+        rpy="0 0 0" />
+      <mass
+        value="0.772322066290233" />
+      <inertia
+        ixx="0.00443896849024465"
+        ixy="-3.02140179195276E-11"
+        ixz="5.44278128222843E-11"
+        iyy="0.0044389684534144"
+        iyz="-9.99835496240399E-10"
+        izz="0.00774013288362813" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/FRONTLEFT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/FRONTLEFT.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JFRONTLEFT"
+    type="continuous">
+    <origin
+      xyz="0.15137 -0.10771 -0.225"
+      rpy="-1.5708 -0.26474 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="FRONTLEFT" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+
+  <link
+    name="BACKRIGHT">
+    <inertial>
+      <origin
+        xyz="1.65962350945348E-08 -8.84673900802824E-09 -0.0498964284532359"
+        rpy="0 0 0" />
+      <mass
+        value="0.772322066290243" />
+      <inertia
+        ixx="0.0044389684902447"
+        ixy="-3.02140381941082E-11"
+        ixz="5.44278094802563E-11"
+        iyy="0.00443896845341444"
+        iyz="-9.99835486833146E-10"
+        izz="0.00774013288362821" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/BACKRIGHT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/BACKRIGHT.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JBACKRIGHT"
+    type="continuous">
+    <origin
+      xyz="-0.168632176552961 0.107714 -0.225"
+      rpy="-1.5707963267949 -0.286829445495934 3.14159265358979" />
+    <parent
+      link="chassis" />
+    <child
+      link="BACKRIGHT" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+
+  <link
+    name="FRONTRIGHT">
+    <inertial>
+      <origin
+        xyz="1.6596235274946E-08 -8.84673742596043E-09 -0.0498964284532353"
+        rpy="0 0 0" />
+      <mass
+        value="0.772322066290254" />
+      <inertia
+        ixx="0.00443896849024475"
+        ixy="-3.02140848148016E-11"
+        ixz="5.44277964787439E-11"
+        iyy="0.0044389684534145"
+        iyz="-9.99835522519038E-10"
+        izz="0.00774013288362831" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/FRONTRIGHT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_base_description/meshes/FRONTRIGHT.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JFRONTRIGHT"
+    type="continuous">
+    <origin
+      xyz="0.15136782344704 0.107714 -0.225"
+      rpy="-1.5707963267949 -0.286829445495934 3.14159265358979" />
+    <parent
+      link="chassis" />
+    <child
+      link="FRONTRIGHT" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+
+    <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="0.35 0.0 0.225"
+      rpy="0 0 0 " />
+    <parent
+      link="chassis" />
+    <child
+      link="lidar" />
+  </joint>
+
+  <link  name="lidar" />
+    <joint
+    name="imu_joint"
+    type="fixed">
+    <origin
+      xyz="0.0 0.0 0.15"
+      rpy="0 0 0 " />
+    <parent
+      link="base_link" />
+    <child
+      link="imu_link" />
+  </joint>
+
+  <link  name="imu_link" />
+
+  <link name="camera">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${cameraSize} ${cameraSize} ${cameraSize}"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${cameraSize} ${cameraSize} ${cameraSize}"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+
+    <inertial>
+      <mass value="${cameraMass}" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <box_inertia m="${cameraMass}" x="${cameraSize}" y="${cameraSize}" z="${cameraSize}" />
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <axis xyz="0 0 0" />
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <parent link="lidar"/>
+    <child link="camera"/>
+  </joint>  
+
+  <xacro:include filename="$(find velodyne_description)/urdf/VLP-16.urdf.xacro"/>
+  <VLP-16 parent="base_link" name="velodyne" topic="/velodyne_points" hz="10" samples="440" gpu="${gpu}">
+    <origin xyz="0 0 0.7" rpy="0 0 0" />
+  </VLP-16>
+
+
+<transmission name="front_left_trans">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="JFRONTLEFT">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Front_Left_Motor">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="front_right_trans">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="JFRONTRIGHT">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Front_Right_Motor">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="back_left_trans">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="JBACKLEFT">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Back_Left_Motor">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="back_right_trans">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="JBACKRIGHT">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Back_Right_Motor">
+    <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+
+</robot>

@@ -1,0 +1,6 @@
+swri_rospy
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/cmake.lock /home/katomaran-ros/catkin_ws8/devel/./cmake.lock
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/share/swri_rospy/cmake/swri_rospyConfig-version.cmake /home/katomaran-ros/catkin_ws8/devel/share/swri_rospy/cmake/swri_rospyConfig-version.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/share/swri_rospy/cmake/swri_rospyConfig.cmake /home/katomaran-ros/catkin_ws8/devel/share/swri_rospy/cmake/swri_rospyConfig.cmake
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/lib/pkgconfig/swri_rospy.pc /home/katomaran-ros/catkin_ws8/devel/lib/pkgconfig/swri_rospy.pc
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/lib/python2.7/dist-packages/swri_rospy/__init__.py /home/katomaran-ros/catkin_ws8/devel/lib/python2.7/dist-packages/swri_rospy/__init__.py

@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/husky_bringup/etc/catkin/profile.d/50.husky_find_mag_config.sh

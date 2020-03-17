@@ -1,0 +1,11 @@
+// Request
+{
+    "command" : "START" | "TABLE" | "EYE",
+    "param" : "left" | "right"
+}
+
+// Reply
+{
+    "command" : "STARTED" | "DELIVER"| "DELIVERED" | "OBSTACLE" | "BATTERY",
+    "param" : true | false
+}

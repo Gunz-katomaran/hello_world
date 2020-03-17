@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy/lib/python2.7/dist-packages/swri_rospy/__init__.py

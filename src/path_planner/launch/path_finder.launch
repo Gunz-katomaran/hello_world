@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--change the yaml file name according your required file-->
+<launch>
+        <arg name="file" default="new"/>
+	<rosparam file="$(find path_planner)/config/$(arg file).yaml" command="load" ns="new" />
+	<node pkg="path_planner" type="path_finder_node.py" respawn="false" name="line_follower_node"  output="screen" args="new"/>
+</launch>

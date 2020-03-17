@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/apriltag_ros/share/apriltag_ros/cmake/apriltag_ros-msg-extras.cmake

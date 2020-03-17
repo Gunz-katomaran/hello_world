@@ -1,0 +1,1 @@
+/home/katomaran-ros/catkin_ws8/devel/.private/tag_robo/lib/pkgconfig/tag_robo.pc

@@ -1,0 +1,8 @@
+prefix=/home/katomaran-ros/catkin_ws8/devel/.private/swri_rospy
+
+Name: swri_rospy
+Description: Description of swri_rospy
+Version: 2.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

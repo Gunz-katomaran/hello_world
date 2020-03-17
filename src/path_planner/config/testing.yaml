@@ -1,0 +1,7 @@
+point_0:
+  name:  ml1
+  pose:  [0, 0]
+  orientation:  [0, 0]
+  adj_points:  [0]  #fill with point numbers that  are connected to this point separated by comma ','
+  connected_points:  5  #fill with points are connected to this point separated by comma ','
+

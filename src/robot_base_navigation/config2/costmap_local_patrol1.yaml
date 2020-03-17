@@ -1,0 +1,31 @@
+global_frame: map
+rolling_window: true
+width: 8.0
+height: 8.0
+publish_frequency: 3
+update_frequency: 5.0
+
+
+plugins:
+  - {name: obstacles0,           type: "costmap_2d::ObstacleLayer"}
+  - {name: obstacles1,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,           type: "costmap_2d::InflationLayer"}
+
+
+#layer definitions
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+
+obstacles0:
+    observation_sources: 3dlaser
+    3dlaser: {data_type: PointCloud2, clearing: true, marking: true, topic: /velodyne_points, max_obstacle_height: 0.8, min_obstacle_height: 0.04}
+
+obstacles1:
+    observation_sources: laser
+    laser: {data_type: LaserScan, clearing: true, marking: true, topic: /patrol_base/scan, max_obstacle_height: 0.1, inf_is_valid: true}
+
+inflation:
+    inflation_radius: 0.2
+    cost_scaling_factor: 0.5
+

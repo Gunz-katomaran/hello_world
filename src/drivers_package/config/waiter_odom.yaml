@@ -1,0 +1,9 @@
+tickes_meter: 60925.78
+robot_width: 0.44
+~base_frame_id: 'base_link'
+~odom_frame_id: 'odom'
+encoder_min: -2147483648
+encoder_max: 2147483648
+wheel_low_wrap:
+wheel_high_wrap:
+

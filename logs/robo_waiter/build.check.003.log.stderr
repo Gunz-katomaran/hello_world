@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /home/katomaran-ros/catkin_ws8/build/robo_waiter/cmake/robo_waiter-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg/Mile.msg' depends on.
+  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [int] in package [robo_waiter] with paths
+  [['/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg',
+  '/home/katomaran-ros/catkin_ws8/src/robo_waiter/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:40 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1
